@@ -6,4 +6,6 @@ class NeologyUserType
 
   property :user_type
 
+  has_n(:user)
+
 end

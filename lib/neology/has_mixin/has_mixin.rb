@@ -4,11 +4,17 @@ module Neology
 
   module HasMixin
 
+    def relationships_values_hash
+      @relationships_values_hash||={}
+    end
+
+=begin
     def self.included(base)
 
       base.extend(Neology::HasMixin::ClassMethods)
 
     end
+=end
 
   end
 

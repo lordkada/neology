@@ -9,3 +9,4 @@ doc
 *.swp
 .idea
 Gemfile.lock
+neography.log

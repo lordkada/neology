@@ -4,11 +4,13 @@ module Neology
 
   module PropertyMixin
 
+=begin
     def self.included(base)
 
       base.extend(Neology::PropertyMixin::ClassMethods)
 
     end
+=end
 
   end
 

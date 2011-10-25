@@ -5,11 +5,13 @@ module Neology
 
   module IndexMixin
 
+=begin
     def self.included(base)
 
       base.extend(Neology::IndexMixin::ClassMethods)
 
     end
+=end
 
   end
 

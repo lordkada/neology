@@ -8,7 +8,16 @@ module Neology
 
   module NodeMixin
 
+    def initialize inner_node
+      @inner_node= inner_node
+    end
+
+    def inner_node
+      @inner_node
+    end
+
     include Neology::GraphMixin
+    include Neology::HasMixin
 
     def self.included(base)
 
