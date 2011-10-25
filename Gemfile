@@ -1,13 +1,14 @@
 source "http://rubygems.org"
-# Add dependencies required to use your gem here.
-# Example:
-#   gem "activesupport", ">= 2.3.5"
 
-# Add dependencies to develop your gem here.
-# Include everything needed to run rake, tests, features, etc.
+#gem  'neography', '0.0.15'
+gem 'neography', '0.0.15', :git => "https://github.com/lordkada/neography.git"
+
+gem 'active_support'
+
+group :test do
+  gem "rspec", ">= 2.0.0"
+end
+
 group :development do
-  gem "shoulda", ">= 0"
-  gem "bundler", "~> 1.0.0"
-  gem "jeweler", "~> 1.6.4"
-  gem "rcov", ">= 0"
+  gem "rspec", ">= 2.0.0"
 end
