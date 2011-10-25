@@ -1,4 +1,5 @@
 == Welcome to Neology
 
 Neology allows to interact with Neo4j graph server through REST API from Ruby
+
 Neology converges the neo4jrb (API side) and neography projects (REST API)
