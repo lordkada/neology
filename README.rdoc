@@ -1,6 +1,6 @@
 = neology
 
-Description goes here.
+Ruby client library to Neo4jRest API
 
 == Contributing to neology
  
@@ -17,3 +17,4 @@ Description goes here.
 Copyright (c) 2011 Carlo Alberto Degli Atti. See LICENSE.txt for
 further details.
 
+=======
