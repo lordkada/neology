@@ -5,13 +5,13 @@ module Neology
 
   module RelationshipMixin
 
-    attr_reader :source_wrapper
-    attr_reader :destination_wrapper
+    attr_reader :start_node
+    attr_reader :end_node
 
-    def initialize inner_relationship, source_wrapper, destination_wrapper
-      @inner_relationship= inner_relationship
-      @source_wrapper     = source_wrapper
-      @destination_wrapper= destination_wrapper
+    def initialize inner_relationship, start_node, end_node
+      @inner_relationship = inner_relationship
+      @start_node         = start_node
+      @end_node           = end_node
     end
 
     def inner_relationship
@@ -19,7 +19,8 @@ module Neology
     end
 
     def self.included(base)
-      base.extend(Neology::RelationshipMixin::ClassMethods)
+      base.extend Neology::RelationshipMixin::ClassMethods
+      base.extend Neology::PropertyMixin::ClassMethods
     end
 
   end

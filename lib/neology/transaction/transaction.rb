@@ -1,4 +1,3 @@
-require 'neography'
 require 'neology/neo_server'
 
 module Neology
@@ -12,4 +11,5 @@ module Neology
     end
 
   end
+
 end
