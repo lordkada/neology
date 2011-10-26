@@ -1,4 +1,5 @@
 require 'neology'
+require 'mocks/mocks'
 
 class NeologyUserType
 

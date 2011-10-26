@@ -1,4 +1,6 @@
 require 'neology'
+require 'mocks/neology_user'
+require 'mocks/neology_r_author'
 
 class NeologyComment
 

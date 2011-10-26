@@ -1,7 +1,15 @@
 require 'spec_helper'
-require 'mocks/neology_user'
+require 'mocks/mocks'
 
 describe "node specs" do
+
+  describe "Node interaction" do
+
+    it "should load a node by id"
+
+    it "should instance the node wrapper"
+
+  end
 
   describe "nodes creation" do
 

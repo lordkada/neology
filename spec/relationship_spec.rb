@@ -1,10 +1,15 @@
 require 'spec_helper'
-require 'mocks/neology_user'
-require 'mocks/neology_user_type'
-require 'mocks/neology_r_author'
-require 'mocks/neology_comment'
+require 'mocks/mocks'
 
 describe "node specs" do
+
+  describe "dealing with Relationship" do
+
+    it "should load a relationship by id"
+
+    it "should instance the relationship wrapper"
+
+  end
 
   describe "relationships creation" do
 
@@ -93,6 +98,14 @@ describe "node specs" do
       }.should =~ [voter_1, voter_2, voter_3, voter_4]
 
     end
+
+    it "user should have only one incoming relationship (user.rel :incoming, :comment)"
+
+    it "should be only one relationship between comment and voter 3"
+
+    it "should return all outgoing relationships"
+
+    it "should return all incoming relationships"
 
   end
 
