@@ -88,7 +88,10 @@ describe "node specs" do
       voters = comment.rels(:voters)
       voters.size.should == 4
 
-      comment.inner_node["self"]
+      voters.collect { |rel|
+        rel.end_node
+      }.should =~ [voter_1, voter_2, voter_3, voter_4]
+
     end
 
   end

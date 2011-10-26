@@ -2,13 +2,21 @@ module Neology
 
   class Traverser
 
-    def initialize rels_mixin_instance, rels_keys
-      @rels_mixin_instance = rels_mixin_instance
-      @rels_keys           = rels_keys
+    def initialize relationship_values_hash, rel_names
+      @relationship_values_hash = relationship_values_hash
+      @rel_names                = rel_names
     end
 
-    def each(&block)
-      @rels_keys.each { |rel_key| yield @rels_mixin_instance.rel_value[rel_key] }
+    def each &block
+      rels.each { |rel|
+        yield rel
+      }
+    end
+
+    def collect &block
+      rels.collect { |rel|
+        yield rel
+      }
     end
 
     def size
@@ -19,15 +27,19 @@ module Neology
       rels[index]
     end
 
+    private
+
     def rels
       @rels ||=calc_rels
     end
 
     def calc_rels
 
-      @rels_keys.inject([]) { |memo, key|
+      keys = (@rel_names.size == 0) ? @relationship_values_hash.keys : @rel_names
 
-        rel = @rels_mixin_instance.rel(key)
+      keys.inject([]) { |memo, key|
+
+        rel = @relationship_values_hash[key]
 
         if (rel.respond_to?(:each))
           memo.concat rel
