@@ -28,7 +28,9 @@ describe "node specs" do
       userType.user<<user_b
 
       userType.user.size.should == 2
-      userType.user.should include(user_a, user_b)
+      userType.user.collect do |rel|
+        rel.end_node
+      end.should include(user_a, user_b)
 
     end
 
@@ -86,6 +88,7 @@ describe "node specs" do
       voters = comment.rels(:voters)
       voters.size.should == 4
 
+      comment.inner_node["self"]
     end
 
   end

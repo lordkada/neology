@@ -27,8 +27,8 @@ module Neology
       @to_wrapper
     end
 
-    def get_relationship
-      @relationship
+    def create source_node, destination_node
+      (@relationship ? @relationship : Neology::Relationship).create(@name, source_node, destination_node)
     end
 
   end

@@ -4,12 +4,14 @@ module Neology
 
     class NWrapper
 
-      def initialize relationship_declaration
+      def initialize source_node, relationship_declaration
+        @source_node              = source_node
         @relationship_declaration = relationship_declaration
         @wrapper_array            = []
       end
 
       def << wrapper
+
         if wrapper.respond_to?(:each)
           wrapper.each { |wrapper_item|
             add_wrapper wrapper_item
@@ -34,19 +36,26 @@ module Neology
         end
       end
 
+      def collect &block
+        @wrapper_array.collect do |rel|
+          yield rel
+        end
+      end
+
       def to_a
         @wrapper_array.to_a
       end
 
       def to_ary
-         @wrapper_array.to_ary
+        @wrapper_array.to_ary
       end
 
       private
 
       def add_wrapper wrapper
         @relationship_declaration.validate! wrapper
-        @wrapper_array<< wrapper
+
+        @wrapper_array<< @relationship_declaration.create(@source_node, wrapper)
       end
 
     end

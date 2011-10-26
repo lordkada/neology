@@ -9,7 +9,7 @@ module Neology
     def rel rel_name
       rel_decl = self.class.get_rel_decl rel_name
       if (self.class.get_rel_type(rel_name) == :n_relationship && relationships_values_hash[rel_name].nil?)
-        relationships_values_hash[rel_name] = NWrapper.new(rel_decl)
+        relationships_values_hash[rel_name] = NWrapper.new(self, rel_decl)
       end
 
       relationships_values_hash[rel_name]
@@ -23,8 +23,7 @@ module Neology
     def set_rel_value rel_name, value
       rel_decl = self.class.get_rel_decl rel_name
       rel_decl.validate! value
-      rel_wrapper_class                   = (rel_decl.get_relationship) ? rel_decl.get_relationship : Neology::Relationship
-      relationships_values_hash[rel_name] = rel_wrapper_class.create(rel_name, self, value)
+      relationships_values_hash[rel_name] = rel_decl.create(self, value)
     end
 
     def rels(*rel_name)

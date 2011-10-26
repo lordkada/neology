@@ -11,10 +11,6 @@ module Neology
 
       end
 
-      #def load inner_relationship
-      #  self.new inner_relationship
-      #end
-
     end
 
   end
