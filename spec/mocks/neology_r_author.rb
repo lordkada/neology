@@ -7,8 +7,8 @@ class NeologyRAuthor
 
   property :score
 
-  def self.create_custom
-    { :score => 0.0 }
+  def init_on_create
+    self.score = 0.0
   end
 
 end

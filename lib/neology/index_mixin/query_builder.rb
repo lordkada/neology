@@ -52,9 +52,10 @@ module Neology
                 "index = idxManager.forNodes('#{@index_name}');"+
                 "query = new QueryContext( '#{@query}' );"
 
-        script_code += "query = query.sort( new Sort( (SortField[])[ #{sort_keys} ] ) );" if @sort_keys.size > 0
+        script_code += "query = query.sort( new Sort( (SortField[])[ #{sort_keys} ] ) );" if (@sort_keys && @sort_keys.size > 0)
         script_code += "results = index.query( query );"
 
+        #p script_code
         Neology::NeoServer.get.execute_script script_code
 
       end

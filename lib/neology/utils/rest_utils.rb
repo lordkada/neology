@@ -10,6 +10,7 @@ module Neology
 
     def self.clear_db start_node
 
+
       Neology::NeoServer.get.traverse(start_node, "nodes", { "order"         => "depth first",
                                                              "uniqueness"    => "node global",
                                                              "relationships" => [{ "type"      => "base", # A hash containg a description of the traversal
@@ -17,6 +18,8 @@ module Neology
                                                              "return filter" => { "language" => "builtin",
                                                                                   "name"     => "all_but_start_node" },
                                                              "depth"         => 1 }).each do |node|
+
+         p "ci passo #{node}"
         clear_db node
       end
 
@@ -35,6 +38,8 @@ module Neology
       unless start_node.nil? || (start_node && /node\/0/.match(start_node["self"]))
         Neology::NeoServer.get.delete_node start_node
         #p "deleting node #{start_node["self"]}"
+        p "deleting index #{start_node["data"]["_classname"]+"_index"}"
+        Neology::NeoServer.get.remove_node_from_index(start_node["data"]["_classname"]+"_index", start_node)
       end
 
       def self.find_node property, value, start_node_id = 0, max_depth= 1

@@ -20,7 +20,18 @@ module Neology
     include Neology::GraphMixin
     include Neology::RelsMixin
 
+    def del
+      Neology::NeoServer.get.delete_node!(inner_node)
+      Neology::NeoServer.get.delete_node_index(inner_node) if self.respond_to? :delete_node_index
+    end
+
     def self.included(base)
+
+      base.instance_eval do
+        class << self
+          alias_method :old_new, :new
+        end
+      end
 
       base.extend Neology::NodeMixin::ClassMethods
       base.extend Neology::PropertyMixin::ClassMethods

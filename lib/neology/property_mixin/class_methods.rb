@@ -14,20 +14,17 @@ module Neology
 
       def property property_name, options= nil
         self.properties_hash[property_name] = options if options
-        define_property_setter property_name
-        define_property_getter property_name
+        define_property_setter property_name.to_s
+        define_property_getter property_name.to_s
       end
 
       def define_property_setter property_name
         send :define_method, "#{property_name}=".to_sym do |value|
-
           old_value = self.inner_node["data"][property_name]
-
           if (value != old_value)
-            self.class.remove_node_index(self.inner_node, property_name, old_value) if self.class.is_indexed?(property_name)
             self.inner_node["data"][property_name] = value
             Neology::NeoServer.get.set_node_properties(inner_node, self.inner_node["data"])
-            self.class.add_node_index(self.inner_node, property_name, value) if self.class.is_indexed?(property_name)
+            self.class.update_node_index(self.inner_node, property_name, old_value, value) if self.class.is_indexed?(property_name)
           end
         end
       end

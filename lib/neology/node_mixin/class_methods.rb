@@ -6,44 +6,32 @@ module Neology
 
     module ClassMethods
 
-      def create(*args)
-        attributes = { "ts" => Time.now.to_f, "_classname" => _class_name }
-        attributes = attributes.merge(self.create_custom) if self.respond_to? :create_custom
+      def new(*args)
 
-        attributes.merge! args[0] if args.size == 1
+        graph_node = Neology::NeoServer.get.create_node({ "_classname" => self.name })
+        wrapper    = self.old_new graph_node
 
-        base_root = find_root!(self.name.downcase.pluralize)
+        wrapper.init_on_create(*args) if wrapper.respond_to? (:init_on_create)
 
-        node = Neology::NeoServer.get.create_node(attributes)
-        Neology::NeoServer.get.create_relationship("base", base_root, node)
+        #self.create_bulk_indexes(graph_node, attributes) if respond_to?(:find)
+        wrapper
 
-        self.create_bulk_indexes node, attributes if respond_to?(:find)
-
-        self.new(node)
       end
 
-      def load node
-        self.new node
+      def load graph_node_id
+        graph_node = Neology::NeoServer.get.get_node(graph_node_id)
+
+        if  graph_node["data"]["_classname"]
+          wrapper_class = Object.const_get(graph_node["data"]["_classname"])
+        else
+          wrapper_class = Node
+        end
+
+        wrapper_class.old_new(graph_node)
       end
 
       def is_indexed? property_name
         (self.respond_to?(:find) && self.indexes_array().include?(property_name))
-      end
-
-      private
-
-      def find_root! root_name
-
-        rootNode = RestUtils.find_node :name, root_name
-
-        return rootNode if rootNode
-
-        rootNode = Neology::NeoServer.get.create_node({ "name" => root_name, "score" => 0.0 })
-
-        Neology::NeoServer.get.create_relationship("base", Neology::NeoServer.get.get_root, rootNode)
-
-        rootNode
-
       end
 
     end

@@ -12,8 +12,8 @@ class NeologyUser
   has_one(:type)
   has_n(:authored_comment)
 
-  def self.create_custom
-    { :score => 0.0 }
+  def init_on_create score=0
+    self.score = score
   end
 
 end

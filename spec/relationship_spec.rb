@@ -15,8 +15,8 @@ describe "node specs" do
 
     it "should create a 'one' relationship between user and userType" do
 
-      user     = NeologyUser.create
-      userType = NeologyUserType.create
+      user     = NeologyUser.new
+      userType = NeologyUserType.new
 
       user.type = userType
       user.type.id.should == userType.id
@@ -25,9 +25,9 @@ describe "node specs" do
 
     it "should create a 'n' relationship between userType and user" do
 
-      user_a   = NeologyUser.create
-      user_b   = NeologyUser.create
-      userType = NeologyUserType.create
+      user_a   = NeologyUser.new
+      user_b   = NeologyUser.new
+      userType = NeologyUserType.new
 
       userType.user<<user_a
       userType.user<<user_b
@@ -41,8 +41,8 @@ describe "node specs" do
 
     it "shouldn't be able to assign a comment to userType.user relationship" do
 
-      comment  = NeologyComment.create
-      userType = NeologyUserType.create
+      comment  = NeologyComment.new
+      userType = NeologyUserType.new
 
       lambda { userType.user << comment }.should raise_exception
 
@@ -50,8 +50,8 @@ describe "node specs" do
 
     it "should return relations of 'neology_r_author' kind" do
 
-      comment = NeologyComment.create
-      user    = NeologyUser.create
+      comment = NeologyComment.new
+      user    = NeologyUser.new
 
       comment.author= user
       rels          = comment.rels(:author)
@@ -63,12 +63,12 @@ describe "node specs" do
 
     it "should return only all the relations" do
 
-      comment = NeologyComment.create
-      user    = NeologyUser.create
-      voter_1 = NeologyUser.create
-      voter_2 = NeologyUser.create
-      voter_3 = NeologyUser.create
-      voter_4 = NeologyUser.create
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+      voter_1 = NeologyUser.new
+      voter_2 = NeologyUser.new
+      voter_3 = NeologyUser.new
+      voter_4 = NeologyUser.new
 
       comment.author= user
       comment.voters<<[voter_1, voter_2, voter_3, voter_4]
@@ -80,12 +80,12 @@ describe "node specs" do
 
     it "should return only voters relations" do
 
-      comment = NeologyComment.create
-      user    = NeologyUser.create
-      voter_1 = NeologyUser.create
-      voter_2 = NeologyUser.create
-      voter_3 = NeologyUser.create
-      voter_4 = NeologyUser.create
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+      voter_1 = NeologyUser.new
+      voter_2 = NeologyUser.new
+      voter_3 = NeologyUser.new
+      voter_4 = NeologyUser.new
 
       comment.author= user
       comment.voters<<[voter_1, voter_2, voter_3, voter_4]
