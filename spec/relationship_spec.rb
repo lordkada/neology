@@ -21,6 +21,9 @@ describe "node specs" do
       user.type = userType
       user.type.id.should == userType.id
 
+      user.del
+      userType.del
+
     end
 
     it "should create a 'n' relationship between userType and user" do
@@ -37,6 +40,10 @@ describe "node specs" do
         rel.end_node
       end.should include(user_a, user_b)
 
+      user_a.del
+      user_b.del
+      userType.del
+
     end
 
     it "shouldn't be able to assign a comment to userType.user relationship" do
@@ -45,6 +52,9 @@ describe "node specs" do
       userType = NeologyUserType.new
 
       lambda { userType.user << comment }.should raise_exception
+
+      comment.del
+      userType.del
 
     end
 
@@ -58,6 +68,9 @@ describe "node specs" do
 
       rels.size.should == 1
       rels[0].kind_of?(NeologyRAuthor).should be_true
+
+      comment.del
+      user.del
 
     end
 
@@ -75,6 +88,13 @@ describe "node specs" do
 
       voters = comment.rels
       voters.size.should == 5
+
+      comment.del
+      user.del
+      voter_1.del
+      voter_2.del
+      voter_3.del
+      voter_4.del
 
     end
 
@@ -96,6 +116,13 @@ describe "node specs" do
       voters.collect { |rel|
         rel.end_node
       }.should =~ [voter_1, voter_2, voter_3, voter_4]
+
+      comment.del
+      user.del
+      voter_1.del
+      voter_2.del
+      voter_3.del
+      voter_4.del
 
     end
 
