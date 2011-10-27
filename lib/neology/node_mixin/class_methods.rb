@@ -20,7 +20,10 @@ module Neology
 
       def load graph_node_id
         graph_node = Neology::NeoServer.get_node(graph_node_id)
+        _load graph_node
+      end
 
+      def _load graph_node
         if  graph_node["data"]["_classname"]
           wrapper_class = Object.const_get(graph_node["data"]["_classname"])
         else

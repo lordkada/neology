@@ -126,7 +126,21 @@ describe "node specs" do
 
     end
 
-    it "user should have only one incoming relationship (user.rel :incoming, :comment)"
+    it "user should have only one incoming relationship -> user.rel (:incoming, :comment)" do
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+
+      comment.author= user
+      comment.voters<< user
+
+      rel = user.rel(:incoming, :author)
+
+      rel.start_node.id.should == comment.id
+      rel.end_node.id.should == user.id
+
+      comment.del
+      user.del
+    end
 
     it "should be only one relationship between comment and voter 3"
 

@@ -14,11 +14,20 @@ module Neology
       @end_node           = end_node
     end
 
-    def inner_relationship
-      @inner_inner_relationship
+    def inner_node
+      @inner_relationship
     end
 
+    include Neology::GraphMixin
+
     def self.included(base)
+
+      base.instance_eval do
+        class << self
+          alias_method :old_new, :new
+        end
+      end
+
       base.extend Neology::RelationshipMixin::ClassMethods
       base.extend Neology::PropertyMixin::ClassMethods
     end

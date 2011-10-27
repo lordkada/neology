@@ -14,10 +14,10 @@ module Neology
       relationships_values_hash[rel_name]
     end
 
-    def rel rel_name
-      rel = relationships_values_hash[rel_name]
-      raise RuntimeError ("relationship #{rel_name} is a n_type and cannot be accessed through 'rel' method") if rel.respond_to?(:each)
-      rel
+    def rel direction, rel_name
+      rel = (direction==:outgoing) ? relationships_values_hash[rel_name] : Neology::NeoServer.get_node_relationships(self.inner_node, 'in', rel_name)
+      raise RuntimeError ("relationship #{rel_name} is a n_type and cannot be accessed through 'rel' method") if rel.respond_to?(:each) && rel.size > 1
+      Neology::Relationship._load( rel[0] ) if rel
     end
 
     def rels(*rel_name)

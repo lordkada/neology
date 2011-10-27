@@ -34,12 +34,16 @@ module Neology
     end
 
     #Relationships
+    def self.get_relationship id
+      neo_server.get_relationship id
+    end
+
     def self.create_relationship type, from, to, props = nil
       neo_server.create_relationship type, from, to, props
     end
 
-    def self.get_node_relationships *args
-      neo_server.get_node_relationships *args
+    def self.set_relationship_properties id, properties
+      neo_server.set_relationship_properties id, properties
     end
 
     def self.get_node_relationships *args

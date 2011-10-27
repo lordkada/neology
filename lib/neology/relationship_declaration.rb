@@ -28,7 +28,7 @@ module Neology
     end
 
     def create source_node, destination_node
-      (@relationship ? @relationship : Neology::Relationship).create(@name, source_node, destination_node)
+      (@relationship ? @relationship : Neology::Relationship).new(@name, source_node, destination_node)
     end
 
   end
