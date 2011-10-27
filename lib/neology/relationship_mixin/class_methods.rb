@@ -23,9 +23,9 @@ module Neology
       def _load graph_rel
 
         if  graph_rel["data"]["_classname"]
-          wrapper_class = Object.const_get(graph_rel["data"]["_classname"])
+          wrapper_class = Neology.const_get(graph_rel["data"]["_classname"].split('::').last)
         else
-          wrapper_class = Neography::Relationship
+          wrapper_class = Neology::Relationship
         end
 
         wrapper_class.old_new(graph_rel,

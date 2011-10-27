@@ -114,8 +114,8 @@ describe "node specs" do
       voters.size.should == 4
 
       voters.collect { |rel|
-        rel.end_node
-      }.should =~ [voter_1, voter_2, voter_3, voter_4]
+        rel.end_node.id
+      }.should =~ [voter_1.id, voter_2.id, voter_3.id, voter_4.id]
 
       comment.del
       user.del
@@ -142,11 +142,83 @@ describe "node specs" do
       user.del
     end
 
-    it "should be only one relationship between comment and voter 3"
+    it "should be only one relationship between comment and voter 3" do
 
-    it "should return all outgoing relationships"
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+      voter_1 = NeologyUser.new
+      voter_2 = NeologyUser.new
+      voter_3 = NeologyUser.new
+      voter_4 = NeologyUser.new
 
-    it "should return all incoming relationships"
+      comment.author= user
+      comment.voters<<[voter_1, voter_2, voter_3, voter_4]
+
+      rels = comment.rels(:voters).to_other(voter_3)
+
+      rels.size.should == 1
+      rels[0].start_node.id.should == comment.id
+      rels[0].end_node.id.should == voter_3.id
+
+      comment.del
+      user.del
+      voter_1.del
+      voter_2.del
+      voter_3.del
+      voter_4.del
+
+    end
+
+    it "should return all outgoing relationships" do
+
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+      voter_1 = NeologyUser.new
+      voter_2 = NeologyUser.new
+      voter_3 = NeologyUser.new
+      voter_4 = NeologyUser.new
+
+      comment.author= user
+      comment.voters<<[voter_1, voter_2, voter_3, voter_4]
+
+      rels = comment.rels.outgoing(:voters)
+
+      rels.size.should == 4
+
+      comment.del
+      user.del
+      voter_1.del
+      voter_2.del
+      voter_3.del
+      voter_4.del
+
+    end
+
+    it "should return all incoming relationships" do
+
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+      voter_1 = NeologyUser.new
+      voter_2 = NeologyUser.new
+      voter_3 = NeologyUser.new
+      voter_4 = NeologyUser.new
+
+      comment.author= user
+      comment.voters<<[user, voter_1, voter_2, voter_3, voter_4]
+
+      rels = user.rels.incoming(:author)
+
+      rels.size.should == 1
+
+      comment.del
+      user.del
+      voter_1.del
+      voter_2.del
+      voter_3.del
+      voter_4.del
+
+
+    end
 
   end
 

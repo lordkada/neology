@@ -21,7 +21,7 @@ module Neology
     end
 
     def rels(*rel_name)
-      Traverser.new(relationships_values_hash, rel_name)
+      Traverser.new(self.inner_node, *rel_name)
     end
 
     private
