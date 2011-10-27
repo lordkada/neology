@@ -10,6 +10,18 @@ module Neology
 
     end
 
+    def success
+
+    end
+
+    def finish
+
+    end
+
+    def failure
+
+    end
+
   end
 
 end

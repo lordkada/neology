@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 #gem  'neography', '0.0.15'
-gem 'neography', '0.0.15', :git => "https://github.com/lordkada/neography.git"
+gem 'neography', '0.0.15', :git => "https://github.com/maxdemarzi/neography.git"
 
 gem 'active_support'
 
