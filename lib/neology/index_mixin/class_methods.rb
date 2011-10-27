@@ -15,19 +15,19 @@ module Neology
 
       def delete_node_index(node)
         #p "removing index #{_index_name} for #{node["self"]}"
-        Neology::NeoServer.get.remove_node_from_index(_index_name, node)
+        Neology::NeoServer.remove_node_from_index(_index_name, node)
       end
 
       def update_node_index(node, property_name, old_value, new_value)
         #p "updating index #{_index_name} for #{node["self"]}: #{property_name} = #{old_value} --> #{new_value}"
-        Neology::NeoServer.get.remove_node_from_index(_index_name, property_name, old_value, node)
-        Neology::NeoServer.get.add_node_to_index(_index_name, property_name, new_value, node)
+        Neology::NeoServer.remove_node_from_index(_index_name, property_name, old_value, node)
+        Neology::NeoServer.add_node_to_index(_index_name, property_name, new_value, node)
       end
 
 
       def add_node_index(node, property_name, value)
         #p "adding index #{_index_name} for #{node["self"]}: #{property_name} = #{value}"
-        Neology::NeoServer.get.add_node_to_index(_index_name, property_name, value, node)
+        Neology::NeoServer.add_node_to_index(_index_name, property_name, value, node)
       end
 
       def find query

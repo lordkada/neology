@@ -10,7 +10,7 @@ end
 RSpec.configure do |c|
 
   c.before(:all) do
-    Neology::RestUtils.clear_db(Neology::NeoServer.get.get_root)
+    Neology::RestUtils.clear_db(Neology::NeoServer.get_root)
   end
 
 end

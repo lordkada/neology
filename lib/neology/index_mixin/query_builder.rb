@@ -29,7 +29,8 @@ module Neology
       end
 
       def each
-        fetch.each { |n| yield Object.const_get(@class_name).load n } if fetch
+        fetch.each { |n|
+          yield Object.const_get(@class_name).load n } if fetch
       end
 
       def size
@@ -56,7 +57,7 @@ module Neology
         script_code += "results = index.query( query );"
 
         #p script_code
-        Neology::NeoServer.get.execute_script script_code
+        Neology::NeoServer.execute_script script_code
 
       end
 

@@ -8,7 +8,7 @@ module Neology
 
       def new(*args)
 
-        graph_node = Neology::NeoServer.get.create_node({ "_classname" => self.name })
+        graph_node = Neology::NeoServer.create_node({ "_classname" => self.name })
         wrapper    = self.old_new graph_node
 
         wrapper.init_on_create(*args) if wrapper.respond_to? (:init_on_create)
@@ -19,7 +19,7 @@ module Neology
       end
 
       def load graph_node_id
-        graph_node = Neology::NeoServer.get.get_node(graph_node_id)
+        graph_node = Neology::NeoServer.get_node(graph_node_id)
 
         if  graph_node["data"]["_classname"]
           wrapper_class = Object.const_get(graph_node["data"]["_classname"])
