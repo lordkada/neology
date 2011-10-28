@@ -214,7 +214,7 @@ describe "traverser specs" do
 
   end
 
-    it "shoud return all incoming relationships using 'user.incoming(rel)' syntax" do
+  it "shoud return all incoming relationships using 'user.incoming(rel)' syntax" do
 
     comment = NeologyComment.new
     voter_1 = NeologyUser.new
@@ -228,6 +228,22 @@ describe "traverser specs" do
     comment.del
     voter_1.del
 
-    end
+  end
+
+  it "shoud return all incoming relationships using 'user.rels(rel).incoming' syntax" do
+
+    comment = NeologyComment.new
+    voter_1 = NeologyUser.new
+
+    comment.incoming(:voters) << voter_1
+
+    rels = comment.rels(:voters).incoming
+
+    rels.size.should == 1
+
+    comment.del
+    voter_1.del
+
+  end
 
 end

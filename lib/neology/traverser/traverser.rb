@@ -7,6 +7,7 @@ module Neology
     def initialize from_node, *rel_names
       @from_node = from_node
       @all       = rel_names || []
+      @dir       = nil
       @to_other  = nil
       @incoming  = []
       @outgoing  = []
@@ -18,13 +19,15 @@ module Neology
       self
     end
 
-    def incoming rel_name
-      @incoming << rel_name
+    def incoming rel_name= nil
+      @dir = :incoming
+      @incoming << rel_name if rel_name
       self
     end
 
-    def outgoing rel_name
-      @outgoing << rel_name
+    def outgoing rel_name= nil
+      @dir = :outgoing
+      @outgoing << rel_name if rel_name
       self
     end
 
@@ -66,6 +69,12 @@ module Neology
 
     private
 
+    def dir
+      if @dir
+        return ( @dir == :incoming ) ? "in" : "out"
+      end
+    end
+
     def rels
       @rels ||=calc_rels
     end
@@ -79,21 +88,21 @@ module Neology
       relationships = @all.inject ([]) do |memo, rel_name|
         memo << {
                 "type"      => rel_name,
-                "direction" => "all"
+                "direction" => dir || "all"
         }
       end
 
       relationships = @incoming.inject (relationships) do |memo, rel_name|
         memo << {
                 "type"      => rel_name,
-                "direction" => "in"
+                "direction" => dir || "in"
         }
       end
 
       relationships = @outgoing.inject (relationships) do |memo, rel_name|
         memo << {
                 "type"      => rel_name,
-                "direction" => "out"
+                "direction" => dir || "out"
         }
       end
 
