@@ -17,11 +17,19 @@ module Neology
     def rel direction, rel_name
       rel = (direction==:outgoing) ? relationships_values_hash[rel_name] : $neo_server.get_node_relationships(self.inner_node, 'in', rel_name)
       raise RuntimeError ("relationship #{rel_name} is a n_type and cannot be accessed through 'rel' method") if rel.respond_to?(:each) && rel.size > 1
-      Neology::Relationship._load( rel[0] ) if rel
+      Neology::Relationship._load(rel[0]) if rel
     end
 
     def rels(*rel_name)
       Traverser.new(self.inner_node, *rel_name)
+    end
+
+    def incoming rel_name
+      Traverser.new(self.inner_node).incoming(rel_name)
+    end
+
+    def outgoing rel_name
+      Traverser.new(self.inner_node).outgoing(rel_name)
     end
 
     private
