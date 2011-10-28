@@ -22,20 +22,14 @@ module Neology
       def define_property_setter property_name
         #p "defining property setter for property #{property_name}"
         send :define_method, "#{property_name}=".to_sym do |value|
-          old_value = self.inner_node["data"][property_name]
-          if (value != old_value)
-            self.inner_node["data"][property_name] = value
-            $neo_server.set_node_properties(inner_node, self.inner_node["data"])
-            self.class.update_node_index(self.inner_node, property_name, old_value, value) if self.class.is_indexed?(property_name)
-          end
+          self[property_name]= value
         end
       end
 
       def define_property_getter property_name
         #p "defining property getter for property #{property_name}"
         send :define_method, property_name.to_sym do
-          self.inner_node["data"] = $neo_server.get_node_properties(self.inner_node)
-          self.inner_node["data"][property_name.to_s]
+          self[property_name]
         end
       end
 

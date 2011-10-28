@@ -10,16 +10,14 @@ module Neology
 
     def self.clear_db start_node
 
-
       $neo_server.traverse(start_node, "nodes", { "order"         => "depth first",
-                                                             "uniqueness"    => "node global",
-                                                             "relationships" => [{ "type"      => "base", # A hash containg a description of the traversal
-                                                                                   "direction" => "out" }],
-                                                             "return filter" => { "language" => "builtin",
-                                                                                  "name"     => "all_but_start_node" },
-                                                             "depth"         => 1 }).each do |node|
+                                                  "uniqueness"    => "node global",
+                                                  "relationships" => [{ "type"      => "base", # A hash containg a description of the traversal
+                                                                        "direction" => "out" }],
+                                                  "return filter" => { "language" => "builtin",
+                                                                       "name"     => "all_but_start_node" },
+                                                  "depth"         => 1 }).each do |node|
 
-         p "ci passo #{node}"
         clear_db node
       end
 

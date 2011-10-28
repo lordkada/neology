@@ -1,4 +1,4 @@
-require 'neology/property_mixin/class_methods'
+require 'neology/property_mixin/property_mixin'
 require 'neology/rels_mixin/rels_mixin'
 require 'neology/has_mixin/class_methods'
 require 'neology/index_mixin/index_mixin'
@@ -7,6 +7,9 @@ require 'neology/node_mixin/class_methods'
 module Neology
 
   module NodeMixin
+
+    include Neology::PropertyMixin
+    include Neology::RelsMixin
 
     def initialize inner_node
       @inner_node= inner_node
@@ -19,8 +22,6 @@ module Neology
     def id
       RestUtils.get_id @inner_node
     end
-
-    include Neology::RelsMixin
 
     def del
       $neo_server.delete_node!(inner_node)

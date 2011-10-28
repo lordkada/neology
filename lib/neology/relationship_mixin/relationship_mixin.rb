@@ -1,10 +1,12 @@
 require 'neology/relationship_index_mixin/relationship_index_mixin'
-require 'neology/relationship_property_mixin/class_methods'
+require 'neology/relationship_property_mixin/relationship_property_mixin'
 require 'neology/relationship_mixin/class_methods'
 
 module Neology
 
   module RelationshipMixin
+
+    include Neology::RelationshipPropertyMixin
 
     attr_reader :start_node
     attr_reader :end_node
@@ -15,7 +17,7 @@ module Neology
       @end_node           = end_node
     end
 
-    def inner_node
+    def inner_relationship
       @inner_relationship
     end
 
@@ -24,8 +26,8 @@ module Neology
     end
 
     def del
-      $neo_server.delete_relationship(inner_node)
-      $neo_server.delete_relationship_from_index(self.class._index_name, inner_node) if self.class.respond_to? :delete_relationship_index
+      $neo_server.delete_relationship(inner_relationship)
+      $neo_server.delete_relationship_from_index(self.class._index_name, inner_relationship) if self.class.respond_to? :delete_relationship_index
     end
 
     def self.included(base)

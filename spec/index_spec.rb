@@ -37,7 +37,8 @@ describe "Index specs" do
 
     it "should change the order because updated attribute" do
 
-      sorted_users               = NeologyUser.find("score: *").desc("score")
+      sorted_users = NeologyUser.find("score: *").desc("score")
+
       sorted_users.to_a[0].score = 1.5
 
       sorted_users = NeologyUser.find("score: *").desc("score")
