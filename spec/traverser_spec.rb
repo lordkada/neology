@@ -246,4 +246,69 @@ describe "traverser specs" do
 
   end
 
+  it "should return the first voter" do
+
+    comment = NeologyComment.new
+    voter_1 = NeologyUser.new
+    voter_2 = NeologyUser.new
+    voter_3 = NeologyUser.new
+    voter_4 = NeologyUser.new
+
+    comment.voters<<[voter_1, voter_2, voter_3, voter_4]
+
+    rel = comment.outgoing(:voters).first
+
+    rel.start_node.should == comment
+    rel.end_node.should == voter_1
+
+  end
+
+  it "should return the nodes with depth 1" do
+
+    node   = Neology::Node.new
+    node_2 = Neology::Node.new
+    node_3 = Neology::Node.new
+
+    rel_1 = Neology::Relationship.new :rel, node, node_2
+    rel_2 = Neology::Relationship.new :rel, node_2, node_3
+
+    rels = node.rels.outgoing
+    rels.size.should == 1
+    rels.first.start_node.should == node
+    rels.first.end_node.should == node_2
+
+    rel_1.del
+    rel_2.del
+    node.del
+    node.del
+    node.del
+
+  end
+
+  it "should return the nodes with depth 2" do
+
+    node   = Neology::Node.new
+    node_2 = Neology::Node.new
+    node_3 = Neology::Node.new
+
+    rel_1 = Neology::Relationship.new :rel, node, node_2
+    rel_2 = Neology::Relationship.new :rel, node_2, node_3
+
+    rels = node.rels.outgoing.depth(2)
+
+    rels.size.should == 2
+    rels[0].start_node.should == node
+    rels[0].end_node.should == node_2
+    rels[1].start_node.should == node_2
+    rels[1].end_node.should == node_3
+
+
+    rel_1.del
+    rel_2.del
+    node.del
+    node.del
+    node.del
+
+  end
+
 end

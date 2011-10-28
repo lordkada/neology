@@ -12,6 +12,7 @@ module Neology
       @incoming  = []
       @outgoing  = []
       @return    = "relationships"
+      @depth     = 1
     end
 
     def to_other to_other
@@ -28,6 +29,11 @@ module Neology
     def outgoing rel_name= nil
       @dir = :outgoing
       @outgoing << rel_name if rel_name
+      self
+    end
+
+    def depth n
+      @depth = n
       self
     end
 
@@ -56,6 +62,10 @@ module Neology
       self
     end
 
+    def first
+      rels[0]
+    end
+
     def create_rel node
       if @all.size > 0 || (@incoming.size + @outgoing.size > 1)
         raise "cannot create a new relationship, because multiple directions found!"
@@ -81,7 +91,7 @@ module Neology
 
     def calc_rels
 
-      options       = { }
+      options       = { "depth" => @depth }
 
       #relationships
 
