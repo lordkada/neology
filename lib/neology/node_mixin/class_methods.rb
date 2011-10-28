@@ -25,7 +25,7 @@ module Neology
 
       def _load graph_node
         if  graph_node["data"]["_classname"]
-          wrapper_class = Object.const_get(graph_node["data"]["_classname"])
+          wrapper_class = Neology.const_get(graph_node["data"]["_classname"].split('::').last)
         else
           wrapper_class = Node
         end

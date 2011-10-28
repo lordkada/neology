@@ -7,6 +7,21 @@ describe "node specs" do
 
     it "should load a relationship by id"
 
+    it "should create the attributes for the relationship" do
+
+      source_node = Neology::Node.new
+      dest_node = Neology::Node.new
+
+      rel = NeologyRAuthoredComment.new :test_rel, source_node, dest_node, 52
+
+      reloaded = Neology::Relationship.load rel.id
+      reloaded.score.should == 52
+
+      source_node.del
+      dest_node.del
+
+    end
+
     it "should instance the relationship wrapper"
 
   end
@@ -220,6 +235,20 @@ describe "node specs" do
 
     end
 
+    it "should create an indexed relationship" do
+
+      comment = NeologyComment.new
+      user    = NeologyUser.new
+
+      comment.author= user
+      user.authored_comment << comment
+
+      user.authored_comment.size.should == 1
+
+      comment.del
+      user.del
+
+    end
   end
 
 end

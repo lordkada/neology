@@ -1,4 +1,5 @@
-require 'neology/graph_mixin/graph_mixin'
+require 'neology/relationship_index_mixin/class_methods'
+require 'neology/relationship_property_mixin/class_methods'
 require 'neology/relationship_mixin/class_methods'
 
 module Neology
@@ -18,7 +19,9 @@ module Neology
       @inner_relationship
     end
 
-    include Neology::GraphMixin
+    def id
+      RestUtils.get_id @inner_relationship
+    end
 
     def self.included(base)
 
@@ -29,7 +32,8 @@ module Neology
       end
 
       base.extend Neology::RelationshipMixin::ClassMethods
-      base.extend Neology::PropertyMixin::ClassMethods
+      base.extend Neology::RelationshipIndexMixin::ClassMethods
+      base.extend Neology::RelationshipPropertyMixin::ClassMethods
     end
 
   end

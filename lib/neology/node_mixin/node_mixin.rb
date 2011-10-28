@@ -1,5 +1,4 @@
-require 'neology/graph_mixin/graph_mixin'
-require 'neology/property_mixin/property_mixin'
+require 'neology/property_mixin/class_methods'
 require 'neology/rels_mixin/rels_mixin'
 require 'neology/has_mixin/class_methods'
 require 'neology/index_mixin/index_mixin'
@@ -17,7 +16,10 @@ module Neology
       @inner_node
     end
 
-    include Neology::GraphMixin
+    def id
+      RestUtils.get_id @inner_node
+    end
+
     include Neology::RelsMixin
 
     def del

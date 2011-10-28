@@ -1,5 +1,6 @@
 require 'neology'
 require 'mocks/neology_comment'
+require 'mocks/neology_r_authored_comment'
 
 class NeologyUser
 
@@ -10,7 +11,7 @@ class NeologyUser
   index :score
 
   has_one(:type)
-  has_n(:authored_comment)
+  has_n(:authored_comment).relationship( NeologyRAuthoredComment )
 
   def init_on_create score=0
     self.score = score

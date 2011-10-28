@@ -1,7 +1,7 @@
 require 'neography'
 require 'neology'
 
-$neo_server = Neology::NeoServer.new( Neography::Rest.new(:server => 'localhost', :log_enabled => true, :log_file => "../neography.log") )
+$neo_server = Neology::NeoServer.new( Neography::Rest.new(:server => 'localhost', :log_enabled => true, :log_file => "  neography.log") )
 
 def generate_text(length=8)
   chars = 'abcdefghjkmnpqrstuvwxyz'

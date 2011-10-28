@@ -29,12 +29,12 @@ module Neology
         end
 
         wrapper_class.old_new(graph_rel,
-                              Neology::Node.load(graph_rel["start"].split('/').last.to_i),
-                              Neology::Node.load(graph_rel["end"].split('/').last.to_i))
+                              Node.load(graph_rel["start"].split('/').last.to_i),
+                              Node.load(graph_rel["end"].split('/').last.to_i))
       end
 
       def is_indexed? property_name
-        (self.respond_to?(:find) && self.indexes_array().include?(property_name))
+        (self.respond_to?(:find) && self.relationship_indexes_array().include?(property_name))
       end
 
     end

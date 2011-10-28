@@ -48,6 +48,10 @@ module Neology
       @neo_server.set_relationship_properties id, properties
     end
 
+    def get_relationship_properties rel
+      @neo_server.get_relationship_properties rel
+    end
+
     def get_node_relationships *args
       @neo_server.get_node_relationships *args
     end
@@ -67,6 +71,14 @@ module Neology
 
     def remove_node_from_index *args
       @neo_server.remove_node_from_index *args
+    end
+
+    def add_relationship_to_index index, key, value, id
+      @neo_server.add_relationship_to_index index, key, value, id
+    end
+
+    def remove_relationship_from_index *args
+      @neo_server.remove_relationship_from_index *args
     end
 
     def execute_script *args
