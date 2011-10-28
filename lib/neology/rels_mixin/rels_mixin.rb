@@ -21,15 +21,15 @@ module Neology
     end
 
     def rels(*rel_name)
-      Traverser.new(self.inner_node, *rel_name)
+      Traverser.new(self, *rel_name)
     end
 
     def incoming rel_name
-      Traverser.new(self.inner_node).incoming(rel_name)
+      Traverser.new(self).incoming(rel_name)
     end
 
     def outgoing rel_name
-      Traverser.new(self.inner_node).outgoing(rel_name)
+      Traverser.new(self).outgoing(rel_name)
     end
 
     private

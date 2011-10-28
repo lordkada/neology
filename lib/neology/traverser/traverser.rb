@@ -6,7 +6,7 @@ module Neology
 
     def initialize from_node, *rel_names
       @from_node = from_node
-      @all       = rel_names
+      @all       = rel_names || []
       @to_other  = nil
       @incoming  = []
       @outgoing  = []
@@ -46,6 +46,22 @@ module Neology
 
     def [] index
       rels[index]
+    end
+
+    def << node
+      create_rel node
+      self
+    end
+
+    def create_rel node
+      if @all.size > 0 || (@incoming.size + @outgoing.size > 1)
+        raise "cannot create a new relationship, because multiple directions found!"
+      end
+      if @incoming.size > 0
+        Neology::Relationship.new @incoming[0], node, @from_node
+      else
+        Neology::Relationship.new @outgoing[0], @from_node, node
+      end
     end
 
     private
@@ -94,7 +110,7 @@ module Neology
 
       end
 
-      $neo_server.traverse(@from_node, @return, options).collect do |item|
+      $neo_server.traverse(@from_node.inner_node, @return, options).collect do |item|
 
         if (item["data"]["_classname"])
           Neology.const_get(item["data"]["_classname"].split('::').last)._load item
