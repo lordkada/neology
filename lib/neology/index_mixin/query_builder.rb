@@ -57,7 +57,7 @@ module Neology
         script_code += "results = index.query( query );"
 
         #p script_code
-        Neology::NeoServer.execute_script script_code
+        $neo_server.execute_script script_code
 
       end
 

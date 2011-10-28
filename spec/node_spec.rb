@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'neology'
 require 'mocks/mocks'
 
 describe "node specs" do

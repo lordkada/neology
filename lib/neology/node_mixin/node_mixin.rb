@@ -21,8 +21,8 @@ module Neology
     include Neology::RelsMixin
 
     def del
-      Neology::NeoServer.delete_node!(inner_node)
-      Neology::NeoServer.delete_node_index(inner_node) if self.respond_to? :delete_node_index
+      $neo_server.delete_node!(inner_node)
+      $neo_server.delete_node_index(inner_node) if self.respond_to? :delete_node_index
     end
 
     def self.included(base)

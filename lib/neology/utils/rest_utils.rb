@@ -11,7 +11,7 @@ module Neology
     def self.clear_db start_node
 
 
-      Neology::NeoServer.traverse(start_node, "nodes", { "order"         => "depth first",
+      $neo_server.traverse(start_node, "nodes", { "order"         => "depth first",
                                                              "uniqueness"    => "node global",
                                                              "relationships" => [{ "type"      => "base", # A hash containg a description of the traversal
                                                                                    "direction" => "out" }],
@@ -23,34 +23,34 @@ module Neology
         clear_db node
       end
 
-      node_rels = Neology::NeoServer.get_node_relationships(start_node)
+      node_rels = $neo_server.get_node_relationships(start_node)
 
       if node_rels
 
         node_rels.each do |rel|
 
-          Neology::NeoServer.delete_relationship rel
+          $neo_server.delete_relationship rel
 
         end
 
       end
 
       unless start_node.nil? || (start_node && /node\/0/.match(start_node["self"]))
-        Neology::NeoServer.delete_node start_node
+        $neo_server.delete_node start_node
         #p "deleting node #{start_node["self"]}"
         p "deleting index #{start_node["data"]["_classname"]+"_index"}"
-        Neology::NeoServer.remove_node_from_index(start_node["data"]["_classname"]+"_index", start_node)
+        $neo_server.remove_node_from_index(start_node["data"]["_classname"]+"_index", start_node)
       end
 
       def self.find_node property, value, start_node_id = 0, max_depth= 1
 
-        start_node = Neology::NeoServer.get_node start_node_id
+        start_node = $neo_server.get_node start_node_id
 
         if start_node
 
           filter = "position.endNode().hasProperty('#{property}') && position.endNode().getProperty('#{property}') == '#{value}';"
 
-          traverser = Neology::NeoServer.traverse(start_node, "nodes", {
+          traverser = $neo_server.traverse(start_node, "nodes", {
                   "order"         => "breadth first",
                   "uniqueness"    => "node_global",
                   "depth"         => max_depth,
@@ -70,7 +70,7 @@ module Neology
 
       second_node_id = OA::Graph::RestUtils.get_id second_node
 
-      Neology::NeoServer.traverse(first_node, "nodes", {
+      $neo_server.traverse(first_node, "nodes", {
               "order"         => "depth first",
               "uniqueness"    => "node_mixin global",
               "relationships" => [{ "type"      => type,
@@ -92,7 +92,7 @@ module Neology
 
     def self.follow_and_return_nodes node, relationship, limit=0
 
-      out_rel = Neology::NeoServer.get_node_relationships(node, "out", relationship)
+      out_rel = $neo_server.get_node_relationships(node, "out", relationship)
 
       index = 0
 
@@ -118,7 +118,7 @@ module Neology
 
         end.collect do |rel|
 
-          Neology::NeoServer.get_node rel["end"]
+          $neo_server.get_node rel["end"]
 
         end
 

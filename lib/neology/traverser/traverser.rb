@@ -94,7 +94,7 @@ module Neology
 
       end
 
-      Neology::NeoServer.traverse(@from_node, @return, options).collect do |item|
+      $neo_server.traverse(@from_node, @return, options).collect do |item|
 
         if (item["data"]["_classname"])
           Neology.const_get(item["data"]["_classname"].split('::').last)._load item
