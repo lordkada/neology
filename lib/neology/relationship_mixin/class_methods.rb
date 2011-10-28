@@ -6,8 +6,7 @@ module Neology
 
       def new relationship_name, source_wrapper, destination_wrapper, *options
 
-        graph_rel = $neo_server.create_relationship(relationship_name, source_wrapper.inner_node, destination_wrapper.inner_node)
-        $neo_server.set_relationship_properties(graph_rel, { "_classname" => self.name })
+        graph_rel = $neo_server.create_relationship(relationship_name, source_wrapper.inner_node, destination_wrapper.inner_node, { "_classname" => self.name })
 
         wrapper = self.old_new graph_rel, source_wrapper, destination_wrapper
         wrapper.init_on_create(relationship_name, source_wrapper, destination_wrapper, *options) if wrapper.respond_to? (:init_on_create)

@@ -36,6 +36,21 @@ describe "node specs" do
 
     end
 
+    it "should a created relationship be equal to the reloaded one" do
+
+      source_node = Neology::Node.new
+      dest_node   = Neology::Node.new
+
+      rel = NeologyRAuthoredComment.new :test_rel, source_node, dest_node, 52
+
+      reloaded = Neology::Relationship.load rel.id
+      reloaded.should == rel
+
+      source_node.del
+      dest_node.del
+
+    end
+
   end
 
   describe "relationships creation" do

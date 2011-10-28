@@ -23,6 +23,10 @@ module Neology
       RestUtils.get_id @inner_node
     end
 
+    def == (other)
+      inner_node == other.inner_node if other
+    end
+
     def del
       $neo_server.delete_node!(inner_node)
       $neo_server.delete_node_from_index(self.class._index_name, inner_node) if self.class.respond_to? :delete_node_from_index

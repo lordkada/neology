@@ -20,6 +20,15 @@ describe "node specs" do
       user.del
     end
 
+    it "should a created node be equal to the reloaded one" do
+      user = NeologyUser.new 48
+      id   = user.id
+
+      reloaded = Neology::Node.load id
+      reloaded.should == user
+
+      user.del
+    end
   end
 
   describe "nodes creation" do

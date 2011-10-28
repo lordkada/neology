@@ -25,6 +25,10 @@ module Neology
       RestUtils.get_id @inner_relationship
     end
 
+    def == (other)
+      inner_relationship == other.inner_relationship if other
+    end
+
     def del
       $neo_server.delete_relationship(inner_relationship)
       $neo_server.delete_relationship_from_index(self.class._index_name, inner_relationship) if self.class.respond_to? :delete_relationship_index
