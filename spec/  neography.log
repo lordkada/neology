@@ -2201,3 +2201,2524 @@ D, [2011-10-28T11:45:06.467895 #3209] DEBUG -- : OK, created {
   "end" : "http://localhost:7474/db/data/node/259"
 }
 D, [2011-10-28T11:45:06.472058 #3209] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.370103 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.381764 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.387767 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.391511 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.415698 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/103/relationships/out",
+  "data" : {
+    "_classname" : "Neology::Node"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/103/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/103/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/103/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/103",
+  "properties" : "http://localhost:7474/db/data/node/103/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/103/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/103/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/103/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/103/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/103/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/103/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.422912 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/104/relationships/out",
+  "data" : {
+    "_classname" : "Neology::Node"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/104/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/104/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/104/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/104",
+  "properties" : "http://localhost:7474/db/data/node/104/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/104/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/104/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/104/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/104/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/104/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/104/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.430722 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/103",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/74",
+  "property" : "http://localhost:7474/db/data/relationship/74/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/74/properties",
+  "type" : "test_rel",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/104"
+}
+D, [2011-10-28T13:07:09.437457 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.441100 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.445020 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.450852 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.455299 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.466573 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.470238 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.473359 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.479398 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.488478 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/105/relationships/out",
+  "data" : {
+    "_classname" : "Neology::Node"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/105/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/105/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/105/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/105",
+  "properties" : "http://localhost:7474/db/data/node/105/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/105/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/105/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/105/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/105/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/105/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/105/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.496034 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/106/relationships/out",
+  "data" : {
+    "_classname" : "Neology::Node"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/106/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/106/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/106/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/106",
+  "properties" : "http://localhost:7474/db/data/node/106/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/106/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/106/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/106/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/106/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/106/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/106/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.501944 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/105",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/75",
+  "property" : "http://localhost:7474/db/data/relationship/75/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/75/properties",
+  "type" : "test_rel",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/106"
+}
+D, [2011-10-28T13:07:09.510546 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.515384 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:09.518138 #5565] ERROR -- : 
+D, [2011-10-28T13:07:09.528835 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/relationship/NeologyRAuthoredComment_index/score/52/75",
+  "start" : "http://localhost:7474/db/data/node/105",
+  "data" : {
+    "_classname" : "NeologyRAuthoredComment",
+    "score" : 52
+  },
+  "self" : "http://localhost:7474/db/data/relationship/75",
+  "property" : "http://localhost:7474/db/data/relationship/75/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/75/properties",
+  "type" : "test_rel",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/106"
+}
+D, [2011-10-28T13:07:09.533293 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.537524 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.542829 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.546564 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.550832 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.555905 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.559448 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.562341 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.565828 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.607286 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/107/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/107/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/107/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/107/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/107",
+  "properties" : "http://localhost:7474/db/data/node/107/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/107/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/107/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/107/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/107/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/107/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/107/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.611450 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.619655 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:09.622555 #5565] ERROR -- : 
+D, [2011-10-28T13:07:09.634089 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/107",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/107/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/107/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/107/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/107/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/107",
+  "properties" : "http://localhost:7474/db/data/node/107/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/107/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/107/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/107/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/107/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/107/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/107/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.640609 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/108/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUserType"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/108/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/108/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/108/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/108",
+  "properties" : "http://localhost:7474/db/data/node/108/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/108/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/108/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/108/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/108/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/108/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/108/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.646479 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/107",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/76",
+  "property" : "http://localhost:7474/db/data/relationship/76/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/76/properties",
+  "type" : "type",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/108"
+}
+D, [2011-10-28T13:07:09.650555 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.654264 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.659024 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.664025 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.666957 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.670820 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.679779 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/109/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/109/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/109/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/109/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/109",
+  "properties" : "http://localhost:7474/db/data/node/109/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/109/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/109/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/109/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/109/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/109/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/109/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.686089 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.690868 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:09.694783 #5565] ERROR -- : 
+D, [2011-10-28T13:07:09.712803 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/109",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/109/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/109/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/109/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/109/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/109",
+  "properties" : "http://localhost:7474/db/data/node/109/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/109/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/109/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/109/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/109/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/109/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/109/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.723120 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/110/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/110/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/110/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/110/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/110",
+  "properties" : "http://localhost:7474/db/data/node/110/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/110/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/110/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/110/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/110/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/110/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/110/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.728324 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.735466 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:09.739755 #5565] ERROR -- : 
+D, [2011-10-28T13:07:09.750413 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/110",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/110/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/110/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/110/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/110/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/110",
+  "properties" : "http://localhost:7474/db/data/node/110/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/110/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/110/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/110/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/110/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/110/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/110/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.756979 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/111/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUserType"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/111/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/111/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/111/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/111",
+  "properties" : "http://localhost:7474/db/data/node/111/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/111/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/111/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/111/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/111/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/111/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/111/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.762648 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/111",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/77",
+  "property" : "http://localhost:7474/db/data/relationship/77/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/77/properties",
+  "type" : "user",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/109"
+}
+D, [2011-10-28T13:07:09.766820 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.771897 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/111",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/78",
+  "property" : "http://localhost:7474/db/data/relationship/78/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/78/properties",
+  "type" : "user",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/110"
+}
+D, [2011-10-28T13:07:09.775720 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.780549 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.784488 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.788813 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.797223 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.802107 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.806817 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.824520 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.833308 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.844695 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/112/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/112/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/112/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/112/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/112",
+  "properties" : "http://localhost:7474/db/data/node/112/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/112/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/112/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/112/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/112/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/112/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/112/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.851425 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/113/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUserType"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/113/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/113/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/113/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/113",
+  "properties" : "http://localhost:7474/db/data/node/113/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/113/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/113/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/113/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/113/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/113/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/113/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.855823 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.860671 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.865659 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.869618 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.877070 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/114/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/114/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/114/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/114/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/114",
+  "properties" : "http://localhost:7474/db/data/node/114/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/114/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/114/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/114/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/114/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/114/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/114/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.884243 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/115/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/115/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/115/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/115/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/115",
+  "properties" : "http://localhost:7474/db/data/node/115/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/115/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/115/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/115/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/115/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/115/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/115/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.889306 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.898085 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:09.900608 #5565] ERROR -- : 
+D, [2011-10-28T13:07:09.939795 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/115",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/115/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/115/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/115/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/115/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/115",
+  "properties" : "http://localhost:7474/db/data/node/115/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/115/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/115/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/115/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/115/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/115/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/115/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:09.945055 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/114",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/79",
+  "property" : "http://localhost:7474/db/data/relationship/79/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/79/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/115"
+}
+D, [2011-10-28T13:07:09.949993 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.954113 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.959164 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.965769 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.971318 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.980719 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.984553 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.989102 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:09.993415 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:09.998618 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.007992 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/116/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/116/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/116/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/116/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/116",
+  "properties" : "http://localhost:7474/db/data/node/116/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/116/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/116/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/116/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/116/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/116/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/116/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.045171 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/117/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/117/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/117/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/117/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/117",
+  "properties" : "http://localhost:7474/db/data/node/117/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/117/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/117/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/117/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/117/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/117/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/117/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.049505 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.053770 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.056401 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.069247 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/117",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/117/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/117/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/117/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/117/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/117",
+  "properties" : "http://localhost:7474/db/data/node/117/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/117/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/117/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/117/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/117/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/117/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/117/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.075748 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/118/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/118/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/118/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/118/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/118",
+  "properties" : "http://localhost:7474/db/data/node/118/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/118/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/118/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/118/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/118/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/118/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/118/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.088569 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.092653 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.096020 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.106603 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/118",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/118/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/118/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/118/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/118/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/118",
+  "properties" : "http://localhost:7474/db/data/node/118/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/118/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/118/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/118/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/118/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/118/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/118/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.113755 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/119/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/119/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/119/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/119/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/119",
+  "properties" : "http://localhost:7474/db/data/node/119/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/119/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/119/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/119/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/119/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/119/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/119/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.118367 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.123910 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.128101 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.140992 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/119",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/119/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/119/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/119/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/119/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/119",
+  "properties" : "http://localhost:7474/db/data/node/119/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/119/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/119/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/119/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/119/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/119/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/119/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.147248 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/120/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/120/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/120/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/120/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/120",
+  "properties" : "http://localhost:7474/db/data/node/120/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/120/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/120/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/120/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/120/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/120/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/120/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.152198 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.156137 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.158670 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.172477 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/120",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/120/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/120/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/120/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/120/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/120",
+  "properties" : "http://localhost:7474/db/data/node/120/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/120/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/120/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/120/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/120/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/120/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/120/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.196189 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/121/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/121/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/121/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/121/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/121",
+  "properties" : "http://localhost:7474/db/data/node/121/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/121/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/121/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/121/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/121/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/121/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/121/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.203600 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.207511 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.210048 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.222545 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/121",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/121/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/121/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/121/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/121/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/121",
+  "properties" : "http://localhost:7474/db/data/node/121/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/121/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/121/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/121/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/121/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/121/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/121/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.230158 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/116",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/80",
+  "property" : "http://localhost:7474/db/data/relationship/80/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/80/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/117"
+}
+D, [2011-10-28T13:07:10.236366 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.240330 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.246496 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/116",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/81",
+  "property" : "http://localhost:7474/db/data/relationship/81/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/81/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/118"
+}
+D, [2011-10-28T13:07:10.250922 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.256074 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/116",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/82",
+  "property" : "http://localhost:7474/db/data/relationship/82/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/82/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/119"
+}
+D, [2011-10-28T13:07:10.260264 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.266858 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/116",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/83",
+  "property" : "http://localhost:7474/db/data/relationship/83/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/83/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/120"
+}
+D, [2011-10-28T13:07:10.271729 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.276839 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/116",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/84",
+  "property" : "http://localhost:7474/db/data/relationship/84/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/84/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/121"
+}
+D, [2011-10-28T13:07:10.281106 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.289700 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.300419 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.305315 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.309392 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.313357 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.318236 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.323447 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.329716 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.337268 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.342950 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.347172 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.353260 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.357901 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.361464 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.365457 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.368899 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.372337 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.375564 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.378700 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.382000 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.385933 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.417694 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.420507 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.423864 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.426720 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.430095 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.432850 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.441342 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.452589 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/122/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/122/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/122/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/122/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/122",
+  "properties" : "http://localhost:7474/db/data/node/122/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/122/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/122/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/122/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/122/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/122/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/122/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.463687 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/123/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/123/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/123/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/123/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/123",
+  "properties" : "http://localhost:7474/db/data/node/123/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/123/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/123/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/123/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/123/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/123/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/123/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.468265 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.473256 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.478288 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.490585 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/123",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/123/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/123/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/123/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/123/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/123",
+  "properties" : "http://localhost:7474/db/data/node/123/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/123/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/123/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/123/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/123/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/123/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/123/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.497908 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/124/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/124/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/124/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/124/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/124",
+  "properties" : "http://localhost:7474/db/data/node/124/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/124/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/124/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/124/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/124/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/124/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/124/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.501898 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.506375 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.508832 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.519762 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/124",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/124/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/124/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/124/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/124/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/124",
+  "properties" : "http://localhost:7474/db/data/node/124/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/124/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/124/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/124/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/124/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/124/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/124/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.526010 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/125/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/125/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/125/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/125/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/125",
+  "properties" : "http://localhost:7474/db/data/node/125/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/125/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/125/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/125/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/125/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/125/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/125/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.530191 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.534588 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.537148 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.575245 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/125",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/125/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/125/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/125/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/125/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/125",
+  "properties" : "http://localhost:7474/db/data/node/125/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/125/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/125/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/125/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/125/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/125/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/125/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.581601 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/126/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/126/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/126/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/126/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/126",
+  "properties" : "http://localhost:7474/db/data/node/126/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/126/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/126/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/126/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/126/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/126/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/126/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.585714 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.589517 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.591955 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.604738 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/126",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/126/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/126/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/126/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/126/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/126",
+  "properties" : "http://localhost:7474/db/data/node/126/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/126/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/126/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/126/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/126/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/126/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/126/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.610405 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/127/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/127/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/127/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/127/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/127",
+  "properties" : "http://localhost:7474/db/data/node/127/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/127/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/127/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/127/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/127/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/127/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/127/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.614953 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.619993 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.623246 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.641624 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/127",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/127/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/127/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/127/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/127/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/127",
+  "properties" : "http://localhost:7474/db/data/node/127/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/127/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/127/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/127/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/127/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/127/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/127/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.647358 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/122",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/85",
+  "property" : "http://localhost:7474/db/data/relationship/85/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/85/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/123"
+}
+D, [2011-10-28T13:07:10.652621 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.656561 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.661864 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/122",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/86",
+  "property" : "http://localhost:7474/db/data/relationship/86/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/86/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/124"
+}
+D, [2011-10-28T13:07:10.667249 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.673383 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/122",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/87",
+  "property" : "http://localhost:7474/db/data/relationship/87/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/87/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/125"
+}
+D, [2011-10-28T13:07:10.679608 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.689527 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/122",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/88",
+  "property" : "http://localhost:7474/db/data/relationship/88/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/88/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/126"
+}
+D, [2011-10-28T13:07:10.693519 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.699869 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/122",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/89",
+  "property" : "http://localhost:7474/db/data/relationship/89/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/89/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/127"
+}
+D, [2011-10-28T13:07:10.704538 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.710468 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.714500 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.718542 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.722581 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.726495 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.731374 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.735678 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.739584 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.743747 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.774864 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.779845 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.785413 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.789056 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.792530 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.797703 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.801955 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.804749 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.808125 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.811225 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.815121 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.818028 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.821332 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.824122 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.827376 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.830422 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.833736 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.840347 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/128/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/128/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/128/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/128/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/128",
+  "properties" : "http://localhost:7474/db/data/node/128/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/128/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/128/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/128/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/128/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/128/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/128/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.846980 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/129/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/129/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/129/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/129/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/129",
+  "properties" : "http://localhost:7474/db/data/node/129/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/129/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/129/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/129/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/129/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/129/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/129/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.851985 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.857715 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.861343 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.881584 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/129",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/129/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/129/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/129/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/129/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/129",
+  "properties" : "http://localhost:7474/db/data/node/129/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/129/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/129/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/129/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/129/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/129/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/129/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.886703 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/128",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/90",
+  "property" : "http://localhost:7474/db/data/relationship/90/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/90/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/129"
+}
+D, [2011-10-28T13:07:10.892170 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.897277 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.902428 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/128",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/91",
+  "property" : "http://localhost:7474/db/data/relationship/91/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/91/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/129"
+}
+D, [2011-10-28T13:07:10.906419 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.910384 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.914983 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.919061 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.923290 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.926791 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.933772 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.937294 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.940684 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:10.944224 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.953513 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/130/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/130/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/130/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/130/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/130",
+  "properties" : "http://localhost:7474/db/data/node/130/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/130/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/130/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/130/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/130/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/130/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/130/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.961065 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/131/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/131/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/131/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/131/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/131",
+  "properties" : "http://localhost:7474/db/data/node/131/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/131/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/131/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/131/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/131/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/131/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/131/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.965901 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:10.970750 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:10.973245 #5565] ERROR -- : 
+D, [2011-10-28T13:07:10.984832 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/131",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/131/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/131/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/131/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/131/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/131",
+  "properties" : "http://localhost:7474/db/data/node/131/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/131/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/131/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/131/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/131/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/131/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/131/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.991100 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/132/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/132/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/132/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/132/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/132",
+  "properties" : "http://localhost:7474/db/data/node/132/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/132/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/132/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/132/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/132/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/132/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/132/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:10.995464 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.000162 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.002675 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.016182 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/132",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/132/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/132/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/132/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/132/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/132",
+  "properties" : "http://localhost:7474/db/data/node/132/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/132/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/132/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/132/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/132/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/132/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/132/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.024631 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/133/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/133/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/133/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/133/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/133",
+  "properties" : "http://localhost:7474/db/data/node/133/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/133/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/133/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/133/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/133/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/133/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/133/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.028875 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.032815 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.035284 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.046390 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/133",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/133/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/133/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/133/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/133/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/133",
+  "properties" : "http://localhost:7474/db/data/node/133/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/133/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/133/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/133/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/133/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/133/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/133/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.052519 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/134/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/134/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/134/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/134/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/134",
+  "properties" : "http://localhost:7474/db/data/node/134/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/134/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/134/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/134/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/134/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/134/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/134/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.056484 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.061103 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.064683 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.076574 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/134",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/134/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/134/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/134/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/134/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/134",
+  "properties" : "http://localhost:7474/db/data/node/134/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/134/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/134/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/134/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/134/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/134/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/134/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.082793 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/135/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/135/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/135/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/135/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/135",
+  "properties" : "http://localhost:7474/db/data/node/135/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/135/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/135/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/135/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/135/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/135/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/135/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.086756 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.090703 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.093393 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.104442 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/135",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/135/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/135/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/135/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/135/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/135",
+  "properties" : "http://localhost:7474/db/data/node/135/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/135/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/135/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/135/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/135/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/135/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/135/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.134004 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/130",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/92",
+  "property" : "http://localhost:7474/db/data/relationship/92/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/92/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/131"
+}
+D, [2011-10-28T13:07:11.138141 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.142032 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.148763 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/130",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/93",
+  "property" : "http://localhost:7474/db/data/relationship/93/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/93/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/132"
+}
+D, [2011-10-28T13:07:11.154265 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.159602 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/130",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/94",
+  "property" : "http://localhost:7474/db/data/relationship/94/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/94/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/133"
+}
+D, [2011-10-28T13:07:11.164879 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.171512 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/130",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/95",
+  "property" : "http://localhost:7474/db/data/relationship/95/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/95/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/134"
+}
+D, [2011-10-28T13:07:11.175469 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.180764 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/130",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/96",
+  "property" : "http://localhost:7474/db/data/relationship/96/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/96/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/135"
+}
+D, [2011-10-28T13:07:11.186213 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.202339 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.207342 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.213132 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.222076 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.237312 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.242387 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.247172 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.251734 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.256989 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.262237 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.266808 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.271445 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.276276 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.285735 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.290187 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.294924 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.302480 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.307121 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.312813 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.317863 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.331354 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/136/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/136/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/136/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/136/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/136",
+  "properties" : "http://localhost:7474/db/data/node/136/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/136/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/136/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/136/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/136/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/136/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/136/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.349128 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/137/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/137/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/137/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/137/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/137",
+  "properties" : "http://localhost:7474/db/data/node/137/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/137/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/137/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/137/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/137/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/137/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/137/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.353932 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.361063 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.369821 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.379553 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/137",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/137/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/137/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/137/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/137/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/137",
+  "properties" : "http://localhost:7474/db/data/node/137/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/137/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/137/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/137/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/137/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/137/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/137/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.386364 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/138/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/138/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/138/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/138/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/138",
+  "properties" : "http://localhost:7474/db/data/node/138/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/138/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/138/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/138/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/138/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/138/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/138/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.390577 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.394539 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.397501 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.408377 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/138",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/138/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/138/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/138/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/138/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/138",
+  "properties" : "http://localhost:7474/db/data/node/138/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/138/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/138/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/138/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/138/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/138/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/138/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.414431 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/139/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/139/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/139/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/139/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/139",
+  "properties" : "http://localhost:7474/db/data/node/139/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/139/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/139/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/139/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/139/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/139/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/139/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.418402 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.422298 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.424925 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.437967 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/139",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/139/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/139/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/139/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/139/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/139",
+  "properties" : "http://localhost:7474/db/data/node/139/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/139/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/139/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/139/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/139/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/139/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/139/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.444426 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/140/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/140/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/140/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/140/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/140",
+  "properties" : "http://localhost:7474/db/data/node/140/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/140/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/140/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/140/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/140/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/140/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/140/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.448442 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.452405 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.454927 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.470518 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/140",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/140/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/140/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/140/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/140/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/140",
+  "properties" : "http://localhost:7474/db/data/node/140/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/140/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/140/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/140/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/140/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/140/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/140/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.478382 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/141/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/141/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/141/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/141/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/141",
+  "properties" : "http://localhost:7474/db/data/node/141/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/141/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/141/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/141/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/141/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/141/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/141/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.483647 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.488662 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:11.492132 #5565] ERROR -- : 
+D, [2011-10-28T13:07:11.506918 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/141",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/141/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/141/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/141/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/141/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/141",
+  "properties" : "http://localhost:7474/db/data/node/141/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/141/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/141/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/141/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/141/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/141/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/141/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:11.512655 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/136",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/97",
+  "property" : "http://localhost:7474/db/data/relationship/97/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/97/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/137"
+}
+D, [2011-10-28T13:07:11.516568 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.520564 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.525939 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/136",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/98",
+  "property" : "http://localhost:7474/db/data/relationship/98/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/98/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/138"
+}
+D, [2011-10-28T13:07:11.530226 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.561429 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/136",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/99",
+  "property" : "http://localhost:7474/db/data/relationship/99/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/99/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/139"
+}
+D, [2011-10-28T13:07:11.565620 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.570811 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/136",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/100",
+  "property" : "http://localhost:7474/db/data/relationship/100/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/100/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/140"
+}
+D, [2011-10-28T13:07:11.574636 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.579861 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/136",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/101",
+  "property" : "http://localhost:7474/db/data/relationship/101/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/101/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/141"
+}
+D, [2011-10-28T13:07:11.584592 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.601358 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.605481 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.609428 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.613386 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.617335 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.621410 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.627175 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.633260 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.639170 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.648622 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:11.652773 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.656296 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.659735 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.663171 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:11.668177 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.175070 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.180507 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.187445 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.191194 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.194733 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.197955 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.201089 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.204098 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.207301 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.210126 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.214063 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.221631 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/142/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/142/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/142/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/142/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/142",
+  "properties" : "http://localhost:7474/db/data/node/142/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/142/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/142/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/142/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/142/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/142/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/142/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.228299 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/143/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/143/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/143/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/143/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/143",
+  "properties" : "http://localhost:7474/db/data/node/143/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/143/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/143/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/143/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/143/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/143/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/143/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.234101 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.238044 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.240455 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.269258 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/143",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/143/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/143/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/143/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/143/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/143",
+  "properties" : "http://localhost:7474/db/data/node/143/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/143/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/143/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/143/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/143/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/143/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/143/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.274662 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/144/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/144/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/144/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/144/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/144",
+  "properties" : "http://localhost:7474/db/data/node/144/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/144/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/144/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/144/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/144/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/144/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/144/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.279479 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.284897 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.288356 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.304838 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/144",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/144/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/144/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/144/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/144/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/144",
+  "properties" : "http://localhost:7474/db/data/node/144/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/144/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/144/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/144/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/144/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/144/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/144/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.311808 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/145/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/145/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/145/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/145/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/145",
+  "properties" : "http://localhost:7474/db/data/node/145/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/145/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/145/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/145/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/145/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/145/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/145/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.315913 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.320037 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.323560 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.335134 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/145",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/145/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/145/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/145/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/145/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/145",
+  "properties" : "http://localhost:7474/db/data/node/145/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/145/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/145/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/145/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/145/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/145/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/145/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.341158 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/146/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/146/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/146/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/146/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/146",
+  "properties" : "http://localhost:7474/db/data/node/146/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/146/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/146/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/146/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/146/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/146/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/146/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.344894 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.348693 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.351481 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.361864 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/146",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/146/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/146/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/146/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/146/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/146",
+  "properties" : "http://localhost:7474/db/data/node/146/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/146/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/146/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/146/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/146/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/146/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/146/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.368072 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/147/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/147/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/147/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/147/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/147",
+  "properties" : "http://localhost:7474/db/data/node/147/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/147/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/147/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/147/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/147/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/147/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/147/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.372046 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.375806 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.378546 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.388780 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/147",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/147/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/147/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/147/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/147/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/147",
+  "properties" : "http://localhost:7474/db/data/node/147/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/147/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/147/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/147/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/147/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/147/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/147/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.419543 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/142",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/102",
+  "property" : "http://localhost:7474/db/data/relationship/102/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/102/properties",
+  "type" : "author",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/143"
+}
+D, [2011-10-28T13:07:13.423637 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.428970 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.435386 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/142",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/103",
+  "property" : "http://localhost:7474/db/data/relationship/103/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/103/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/143"
+}
+D, [2011-10-28T13:07:13.439327 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.444528 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/142",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/104",
+  "property" : "http://localhost:7474/db/data/relationship/104/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/104/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/144"
+}
+D, [2011-10-28T13:07:13.448428 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.453469 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/142",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/105",
+  "property" : "http://localhost:7474/db/data/relationship/105/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/105/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/145"
+}
+D, [2011-10-28T13:07:13.457606 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.463349 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/142",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/106",
+  "property" : "http://localhost:7474/db/data/relationship/106/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/106/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/146"
+}
+D, [2011-10-28T13:07:13.467259 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.472460 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/142",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/107",
+  "property" : "http://localhost:7474/db/data/relationship/107/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/107/properties",
+  "type" : "voters",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/147"
+}
+D, [2011-10-28T13:07:13.476373 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.480822 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.485145 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.489435 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.496414 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.500217 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.503889 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.507493 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.511034 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.514645 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.518403 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.522656 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.526180 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.529977 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.534252 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.538500 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.542248 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.545938 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.549217 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.552550 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.555312 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.558872 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.567806 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/148/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/148/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/148/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/148/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/148",
+  "properties" : "http://localhost:7474/db/data/node/148/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/148/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/148/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/148/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/148/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/148/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/148/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.575231 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/149/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/149/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/149/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/149/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/149",
+  "properties" : "http://localhost:7474/db/data/node/149/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/149/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/149/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/149/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/149/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/149/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/149/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.581566 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/150/relationships/out",
+  "data" : {
+    "_classname" : "NeologyComment"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/150/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/150/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/150/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/150",
+  "properties" : "http://localhost:7474/db/data/node/150/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/150/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/150/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/150/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/150/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/150/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/150/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.587204 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/151/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/151/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/151/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/151/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/151",
+  "properties" : "http://localhost:7474/db/data/node/151/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/151/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/151/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/151/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/151/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/151/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/151/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.591159 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.595939 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.598873 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.609185 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/151",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/151/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/151/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/151/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/151/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/151",
+  "properties" : "http://localhost:7474/db/data/node/151/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/151/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/151/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/151/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/151/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/151/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/151/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.615165 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/152/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/152/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/152/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/152/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/152",
+  "properties" : "http://localhost:7474/db/data/node/152/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/152/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/152/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/152/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/152/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/152/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/152/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.619206 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.622943 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.625405 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.635649 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/152",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/152/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/152/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/152/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/152/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/152",
+  "properties" : "http://localhost:7474/db/data/node/152/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/152/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/152/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/152/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/152/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/152/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/152/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.641781 #5565] DEBUG -- : OK, created {
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/153/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser"
+  },
+  "traverse" : "http://localhost:7474/db/data/node/153/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/153/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/153/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/153",
+  "properties" : "http://localhost:7474/db/data/node/153/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/153/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/153/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/153/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/153/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/153/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/153/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.645848 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.649917 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.653500 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.663755 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/node/NeologyUser_index/score/0/153",
+  "outgoing_relationships" : "http://localhost:7474/db/data/node/153/relationships/out",
+  "data" : {
+    "_classname" : "NeologyUser",
+    "score" : 0
+  },
+  "traverse" : "http://localhost:7474/db/data/node/153/traverse/{returnType}",
+  "all_typed_relationships" : "http://localhost:7474/db/data/node/153/relationships/all/{-list|&|types}",
+  "property" : "http://localhost:7474/db/data/node/153/properties/{key}",
+  "self" : "http://localhost:7474/db/data/node/153",
+  "properties" : "http://localhost:7474/db/data/node/153/properties",
+  "outgoing_typed_relationships" : "http://localhost:7474/db/data/node/153/relationships/out/{-list|&|types}",
+  "incoming_relationships" : "http://localhost:7474/db/data/node/153/relationships/in",
+  "extensions" : {
+  },
+  "create_relationship" : "http://localhost:7474/db/data/node/153/relationships",
+  "paged_traverse" : "http://localhost:7474/db/data/node/153/paged/traverse/{returnType}{?pageSize,leaseTime}",
+  "all_relationships" : "http://localhost:7474/db/data/node/153/relationships/all",
+  "incoming_typed_relationships" : "http://localhost:7474/db/data/node/153/relationships/in/{-list|&|types}"
+}
+D, [2011-10-28T13:07:13.670199 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/151",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/108",
+  "property" : "http://localhost:7474/db/data/relationship/108/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/108/properties",
+  "type" : "authored_comment",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/148"
+}
+D, [2011-10-28T13:07:13.675770 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.680226 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.682926 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.693235 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/relationship/NeologyRAuthoredComment_index/score/3/108",
+  "start" : "http://localhost:7474/db/data/node/151",
+  "data" : {
+    "_classname" : "NeologyRAuthoredComment",
+    "score" : 3
+  },
+  "self" : "http://localhost:7474/db/data/relationship/108",
+  "property" : "http://localhost:7474/db/data/relationship/108/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/108/properties",
+  "type" : "authored_comment",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/148"
+}
+D, [2011-10-28T13:07:13.705547 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/152",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/109",
+  "property" : "http://localhost:7474/db/data/relationship/109/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/109/properties",
+  "type" : "authored_comment",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/149"
+}
+D, [2011-10-28T13:07:13.709843 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.714564 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.717934 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.731605 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/relationship/NeologyRAuthoredComment_index/score/7/109",
+  "start" : "http://localhost:7474/db/data/node/152",
+  "data" : {
+    "_classname" : "NeologyRAuthoredComment",
+    "score" : 7
+  },
+  "self" : "http://localhost:7474/db/data/relationship/109",
+  "property" : "http://localhost:7474/db/data/relationship/109/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/109/properties",
+  "type" : "authored_comment",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/149"
+}
+D, [2011-10-28T13:07:13.769994 #5565] DEBUG -- : OK, created {
+  "start" : "http://localhost:7474/db/data/node/153",
+  "data" : {
+  },
+  "self" : "http://localhost:7474/db/data/relationship/110",
+  "property" : "http://localhost:7474/db/data/relationship/110/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/110/properties",
+  "type" : "authored_comment",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/150"
+}
+D, [2011-10-28T13:07:13.786346 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:07:13.791427 #5565] DEBUG -- : OK, no content returned
+E, [2011-10-28T13:07:13.808339 #5565] ERROR -- : 
+D, [2011-10-28T13:07:13.822176 #5565] DEBUG -- : OK, created {
+  "indexed" : "http://localhost:7474/db/data/index/relationship/NeologyRAuthoredComment_index/score/1/110",
+  "start" : "http://localhost:7474/db/data/node/153",
+  "data" : {
+    "_classname" : "NeologyRAuthoredComment",
+    "score" : 1
+  },
+  "self" : "http://localhost:7474/db/data/relationship/110",
+  "property" : "http://localhost:7474/db/data/relationship/110/properties/{key}",
+  "properties" : "http://localhost:7474/db/data/relationship/110/properties",
+  "type" : "authored_comment",
+  "extensions" : {
+  },
+  "end" : "http://localhost:7474/db/data/node/150"
+}
+D, [2011-10-28T13:07:13.836166 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.844860 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.849114 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.854200 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.857165 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.860845 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.865699 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.875640 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.886168 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.895576 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.900548 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.906794 #5565] DEBUG -- : OK
+D, [2011-10-28T13:07:13.910222 #5565] DEBUG -- : OK
+D, [2011-10-28T13:08:34.594578 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.080521 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.084079 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.086795 #5565] DEBUG -- : OK
+D, [2011-10-28T13:10:11.090514 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.093471 #5565] DEBUG -- : OK
+D, [2011-10-28T13:10:11.097428 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.100489 #5565] DEBUG -- : OK
+D, [2011-10-28T13:10:11.103872 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.106824 #5565] DEBUG -- : OK
+D, [2011-10-28T13:10:11.110106 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.112940 #5565] DEBUG -- : OK
+D, [2011-10-28T13:10:11.116176 #5565] DEBUG -- : OK, no content returned
+D, [2011-10-28T13:10:11.118991 #5565] DEBUG -- : OK
+D, [2011-10-28T13:10:11.122460 #5565] DEBUG -- : OK, no content returned

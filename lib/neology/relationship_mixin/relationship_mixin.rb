@@ -1,4 +1,4 @@
-require 'neology/relationship_index_mixin/class_methods'
+require 'neology/relationship_index_mixin/relationship_index_mixin'
 require 'neology/relationship_property_mixin/class_methods'
 require 'neology/relationship_mixin/class_methods'
 
@@ -21,6 +21,11 @@ module Neology
 
     def id
       RestUtils.get_id @inner_relationship
+    end
+
+    def del
+      $neo_server.delete_relationship(inner_node)
+      $neo_server.delete_relationship_from_index(self.class._index_name, inner_node) if self.class.respond_to? :delete_relationship_index
     end
 
     def self.included(base)

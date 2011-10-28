@@ -65,11 +65,11 @@ module Neology
       @neo_server.add_node_to_index index, key, value, id
     end
 
-    def delete_node_index *args
-      @neo_server.delete_node_index *args
+    def delete_node_index index, node
+      @neo_server.remove_node_from_index index, node
     end
 
-    def remove_node_from_index *args
+    def delete_node_from_index *args
       @neo_server.remove_node_from_index *args
     end
 
@@ -77,7 +77,7 @@ module Neology
       @neo_server.add_relationship_to_index index, key, value, id
     end
 
-    def remove_relationship_from_index *args
+    def delete_relationship_from_index *args
       @neo_server.remove_relationship_from_index *args
     end
 

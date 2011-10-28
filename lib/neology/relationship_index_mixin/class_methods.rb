@@ -14,13 +14,13 @@ module Neology
       end
 
       def delete_relationship_index(relationship)
-        #p "removing relationship index #{_index_name} for #{node["self"]}"
+        p "removing relationship index #{_index_name} for #{node["self"]}"
         $neo_server.remove_relationship_from_index(_index_name, relationship)
       end
 
       def update_relationship_index(relationship, property_name, old_value, new_value)
         #p "updating relationship index #{_index_name} for #{relationship["self"]}: #{property_name} = #{old_value} --> #{new_value}"
-        $neo_server.remove_relationship_from_index(_index_name, property_name, old_value, relationship)
+        $neo_server.delete_relationship_from_index(_index_name, property_name, old_value, relationship)
         $neo_server.add_relationship_to_index(_index_name, property_name, new_value, relationship)
       end
 
@@ -34,8 +34,6 @@ module Neology
         #p "relationship querying: #{self.name},#{_index_name}, #{query}"
         QueryBuilder.new self.name, _index_name, query
       end
-
-      private
 
       def _index_name
         "#{_class_name}_index"

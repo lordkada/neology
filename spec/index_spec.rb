@@ -37,7 +37,7 @@ describe "Index specs" do
 
     it "should change the order because updated attribute" do
 
-      sorted_users = NeologyUser.find("score: *").desc("score")
+      sorted_users               = NeologyUser.find("score: *").desc("score")
       sorted_users.to_a[0].score = 1.5
 
       sorted_users = NeologyUser.find("score: *").desc("score")
@@ -45,7 +45,7 @@ describe "Index specs" do
       memo = sorted_users.inject([]) do |memo, user|
         memo << user.score
       end
-      memo.should == [ 3, 1.5, 0]
+      memo.should == [3, 1.5, 0]
 
     end
 
@@ -60,7 +60,40 @@ describe "Index specs" do
   end
 
   describe "relationship indexes" do
-    it "should find all the "
+
+    it "should find all the NeologyRAuthoredComment in desc order by score" do
+
+      comment   = NeologyComment.new
+      comment_2 = NeologyComment.new
+      comment_3 = NeologyComment.new
+
+      user   = NeologyUser.new
+      user_2 = NeologyUser.new
+      user_3 = NeologyUser.new
+
+      rel1= NeologyRAuthoredComment.new :authored_comment, user, comment, 3
+      rel2= NeologyRAuthoredComment.new :authored_comment, user_2, comment_2, 7
+      rel3= NeologyRAuthoredComment.new :authored_comment, user_3, comment_3, 1
+
+      res = NeologyRAuthoredComment.find('score: *').desc(:score)
+
+      res.collect do |rel|
+        rel.score
+      end.should =~ [7, 3, 1]
+
+      rel1.del
+      rel2.del
+      rel3.del
+
+      comment.del
+      comment_2.del
+      comment_3.del
+
+      user.del
+      user_2.del
+      user_3.del
+
+    end
   end
 
 end
