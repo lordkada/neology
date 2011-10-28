@@ -114,6 +114,8 @@ module Neology
 
         if (item["data"]["_classname"])
           Neology.const_get(item["data"]["_classname"].split('::').last)._load item
+        else
+          Neology::Relationship._load item
         end
 
       end

@@ -4,10 +4,14 @@ module Neology
 
     class NWrapper
 
-      def initialize source_node, relationship_declaration
+      def initialize source_node, relationship_declaration=nil, inner_rels_array=nil
         @source_node              = source_node
         @relationship_declaration = relationship_declaration
-        @wrapper_array            = []
+        @inner_rels_array         = inner_rels_array || []
+      end
+
+      def rel_name= rel_name
+        @rel_name= rel_name
       end
 
       def << wrapper
@@ -23,39 +27,48 @@ module Neology
       end
 
       def size
-        @wrapper_array.size
+        @inner_rels_array.size
       end
 
       def include? element
-        @wrapper_array.include? element
+        @inner_rels_array.each do |element|
+          return element["self"].split('/').last.to_i == element.id
+        end
       end
 
       def each &block
-        @wrapper_array.each do |wrapper|
-          block.call wrapper.destination_wrapper
+        @inner_rels_array.each do |rel|
+          block.call Neology::Relationship._load(rel)
         end
       end
 
       def collect &block
-        @wrapper_array.collect do |rel|
-          yield rel
+        @inner_rels_array.collect do |rel|
+          block.call Neology::Relationship._load(rel)
         end
       end
 
       def to_a
-        @wrapper_array.to_a
+        self.each.to_a
       end
 
       def to_ary
-        @wrapper_array.to_ary
+        self.to_a
       end
 
       private
 
       def add_wrapper wrapper
-        @relationship_declaration.validate! wrapper
 
-        @wrapper_array<< @relationship_declaration.create(@source_node, wrapper)
+        if @relationship_declaration
+          @relationship_declaration.validate! wrapper
+          rel = $neo_server.create_relationship(@relationship_declaration.name, @source_node.inner_node, wrapper.inner_node)
+        else
+          rel = $neo_server.create_relationship(@rel_name, @source_node.inner_node, wrapper.inner_node)
+        end
+
+        @inner_rels_array<< rel
+
       end
 
     end

@@ -7,15 +7,26 @@ module Neology
   module RelsMixin
 
     def relationship rel_name
+
       rel_decl = self.class.get_rel_decl rel_name
-      if (self.class.get_rel_type(rel_name) == :n_relationship && relationships_values_hash[rel_name].nil?)
-        relationships_values_hash[rel_name] = NWrapper.new(self, rel_decl)
+      value = $neo_server.get_node_relationships(self.inner_node, "all", rel_name)
+
+      if (self.class.get_rel_type(rel_name) == :n_relationship )
+        value = NWrapper.new(self, rel_decl, value)
       end
-      relationships_values_hash[rel_name]
+
+      return Neology::Relationship._load(value[0]).end_node if ( self.class.get_rel_type(rel_name) == :one_relationship )
+      value
+    end
+
+    def set_relationship rel_name, value
+      rel_decl = self.class.get_rel_decl rel_name
+      rel_decl.validate! value
+      rel_decl.create(self, value)
     end
 
     def rel direction, rel_name
-      rel = (direction==:outgoing) ? relationships_values_hash[rel_name] : $neo_server.get_node_relationships(self.inner_node, 'in', rel_name)
+      rel = (direction==:outgoing) ? relationship(rel_name) : $neo_server.get_node_relationships(self.inner_node, 'in', rel_name)
       raise RuntimeError ("relationship #{rel_name} is a n_type and cannot be accessed through 'rel' method") if rel.respond_to?(:each) && rel.size > 1
       Neology::Relationship._load(rel[0]) if rel
     end
@@ -30,12 +41,6 @@ module Neology
 
     def outgoing rel_name
       Traverser.new(self).outgoing(rel_name)
-    end
-
-    private
-
-    def relationships_values_hash
-      @relationships_values_hash||={ }
     end
 
   end

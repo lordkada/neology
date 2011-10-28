@@ -23,17 +23,13 @@ module Neology
 
       def define_relationship_one_setter relationship_name
         send :define_method, "#{relationship_name}=".to_sym do |value|
-          rel_decl = self.class.get_rel_decl relationship_name
-          rel_decl.validate! value
-          relationships_values_hash[relationship_name] = rel_decl.create(self, value)
+          self.set_relationship relationship_name, value
         end
       end
 
       def define_relationship_getter relationship_name
         send :define_method, "#{relationship_name}".to_sym do
-          value = self.relationship relationship_name
-          return value.end_node if ( self.class.get_rel_type(relationship_name) == :one_relationship )
-          value
+          self.relationship relationship_name
         end
       end
 
