@@ -37,7 +37,7 @@ module Neology
         $neo_server.delete_node start_node
         #p "deleting node #{start_node["self"]}"
         p "deleting index #{start_node["data"]["_classname"]+"_index"}"
-        $neo_server.remove_node_from_index(start_node["data"]["_classname"]+"_index", start_node)
+        $neo_server.delete_node_from_index(start_node["data"]["_classname"]+"_index", start_node)
       end
 
       def self.find_node property, value, start_node_id = 0, max_depth= 1
