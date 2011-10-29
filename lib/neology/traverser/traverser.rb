@@ -13,6 +13,7 @@ module Neology
       @outgoing  = []
       @return    = "relationships"
       @depth     = 1
+      @filter    = nil
     end
 
     def to_other to_other
@@ -34,6 +35,11 @@ module Neology
 
     def depth n
       @depth = n
+      self
+    end
+
+    def filter code
+      @filter = code
       self
     end
 
@@ -81,7 +87,7 @@ module Neology
 
     def dir
       if @dir
-        return ( @dir == :incoming ) ? "in" : "out"
+        return (@dir == :incoming) ? "in" : "out"
       end
     end
 
@@ -123,6 +129,14 @@ module Neology
 
         options["return filter"] = {
                 "body"     => "position.endNode().id == #{@to_other.id}",
+                "language" => "javascript"
+
+        }
+
+      elsif @filter
+
+        options["return filter"] = {
+                "body"     => "#{@filter}",
                 "language" => "javascript"
 
         }

@@ -306,8 +306,41 @@ describe "traverser specs" do
     rel_1.del
     rel_2.del
     node.del
+    node_2.del
+    node_3.del
+
+  end
+
+  it "should return the nodes with :ok relation" do
+
+    node   = Neology::Node.new
+    node_2 = Neology::Node.new
+    node_3 = Neology::Node.new
+    node_4 = Neology::Node.new
+    node_5 = Neology::Node.new
+
+    rel_1 = Neology::Relationship.new :ok, node, node_2
+    rel_2 = Neology::Relationship.new :no, node, node_3
+    rel_3 = Neology::Relationship.new :ok, node_2, node_4
+    rel_4 = Neology::Relationship.new :ok, node_2, node_5
+
+    rels = node.rels.outgoing.filter("(position.lastRelationship() !=null) && (position.lastRelationship().getType().name().compareTo('ok')==0);").depth(2)
+
+    rels.size.should == 3
+
+    rels.collect { |rel|
+      rel.id
+    }.should =~ [rel_1.id, rel_3.id, rel_4.id]
+
+    rel_1.del
+    rel_2.del
+    rel_3.del
+    rel_4.del
     node.del
-    node.del
+    node_2.del
+    node_3.del
+    node_4.del
+    node_5.del
 
   end
 
