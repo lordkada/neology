@@ -16,7 +16,7 @@ module Neology
     def [] key
       self.inner_relationship["data"] = $neo_server.get_relationship_properties(self.inner_relationship)
       value                           = self.inner_relationship["data"][key.to_s]
-      options                         = self.class.relationship_properties_hash[key]
+      options                         = self.class.relationship_properties_hash[key.to_sym]
       value = Neology::DataTypeConverter.convert_to_native value, options[:type] if (options && options[:type])
       value
     end

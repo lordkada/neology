@@ -22,14 +22,14 @@ module Neology
       def define_relationship_property_setter property_name
         #p "defining relationship property setter for property #{property_name}"
         send :define_method, "#{property_name}=".to_sym do |value|
-          self[property_name]= value
+          self[property_name.to_sym]= value
         end
       end
 
       def define_relationship_property_getter property_name
         #p "defining relationship property getter for property #{property_name}"
         send :define_method, property_name.to_sym do
-          self[property_name]
+          self[property_name.to_sym]
         end
       end
 
