@@ -32,19 +32,19 @@ module Neology
 
       def include? element
         @inner_rels_array.each do |element|
-          return element["self"].split('/').last.to_i == element.id
+          return element["end"].split('/').last.to_i == element.id
         end
       end
 
       def each &block
         @inner_rels_array.each do |rel|
-          block.call Neology::Relationship._load(rel)
+          block.call Neology::Node.load(rel["end"].split('/').last.to_i)
         end
       end
 
       def collect &block
         @inner_rels_array.collect do |rel|
-          block.call Neology::Relationship._load(rel)
+          block.call Neology::Node.load(rel["end"].split('/').last.to_i)
         end
       end
 

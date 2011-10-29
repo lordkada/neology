@@ -78,8 +78,8 @@ describe "node specs" do
       userType.user<<user_b
 
       userType.user.size.should == 2
-      userType.user.collect do |rel|
-        rel.end_node.id
+      userType.user.collect do |node|
+        node.id
       end.should include(user_a.id, user_b.id)
 
       user_a.del
