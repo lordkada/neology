@@ -1,6 +1,7 @@
 require 'neology/transaction/transaction'
 require 'neology/node_mixin/node_mixin'
 require 'neology/relationship_mixin/relationship_mixin'
+require 'neology/utils/data_type_converter'
 require 'neology/utils/rest_utils'
 require 'neology/relationship_declaration'
 require 'neology/neo_server'

@@ -75,6 +75,51 @@ describe "node specs" do
 
     end
 
+    it "should the node properties be converted to native values" do
+
+      user = NeologyUserAllProperties.new
+
+      user[:float_type]   = Math::PI
+      user[:integer_type] = Math::PI
+      user[:string_type]  = Math::PI
+
+      reloaded = Neology::Node.load user.id
+
+      reloaded[:float_type].should == Math::PI.to_f
+
+      reloaded[:integer_type].should == Math::PI.to_i
+
+      reloaded[:string_type].should == Math::PI.to_s
+
+      user.del
+
+    end
+
+    it "should the relationship properties be converted to native values" do
+
+      user   = Neology::Node.new
+      user_2 = Neology::Node.new
+      rel    = NeologyRelationshipAllProperties.new :test, user, user_2
+
+      rel[:float_type]   = Math::PI
+      rel[:integer_type] = Math::PI
+      rel[:string_type]  = Math::PI
+
+      reloaded = Neology::Relationship.load rel.id
+
+      reloaded[:float_type].should == Math::PI.to_f
+
+      reloaded[:integer_type].should == Math::PI.to_i
+
+      reloaded[:string_type].should == Math::PI.to_s
+
+      user.del
+      user_2.del
+      rel.del
+
+    end
+
+
   end
 
 end

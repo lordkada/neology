@@ -261,6 +261,12 @@ describe "traverser specs" do
     rel.start_node.should == comment
     rel.end_node.should == voter_1
 
+    comment.del
+    voter_1.del
+    voter_2.del
+    voter_3.del
+    voter_4.del
+
   end
 
   it "should return the nodes with depth 1" do
@@ -280,8 +286,8 @@ describe "traverser specs" do
     rel_1.del
     rel_2.del
     node.del
-    node.del
-    node.del
+    node_2.del
+    node_3.del
 
   end
 

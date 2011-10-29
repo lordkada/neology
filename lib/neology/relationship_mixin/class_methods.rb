@@ -33,7 +33,7 @@ module Neology
       end
 
       def is_indexed? property_name
-        (self.respond_to?(:find) && self.relationship_indexes_array().include?(property_name))
+        (self.respond_to?(:find) && self.relationship_indexes_array().include?(property_name.to_s))
       end
 
     end
