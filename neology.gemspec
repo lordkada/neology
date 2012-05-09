@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rspec", "~> 2.0.0"
   s.add_dependency 'neography', '~> 0.0.22'
+  s.add_dependency 'activesupport'
 end
