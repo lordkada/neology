@@ -15,12 +15,12 @@ module Neology
 
       def delete_node_index(node)
         #p "removing index #{_index_name} for #{node["self"]}"
-        $neo_server.delete_node_from_index(_index_name, node)
+        $neo_server.remove_node_from_index(_index_name, node)
       end
 
       def update_node_index(node, property_name, old_value, new_value)
         #p "updating index #{_index_name} for #{node["self"]}: #{property_name} = #{old_value} --> #{new_value}"
-        $neo_server.delete_node_from_index(_index_name, property_name, old_value, node)
+        $neo_server.remove_node_from_index(_index_name, property_name, old_value, node)
         $neo_server.add_node_to_index(_index_name, property_name, new_value, node)
       end
 
