@@ -65,7 +65,7 @@ module Neology
       @neo_server.add_node_to_index index, key, value, id
     end
 
-    def delete_node_from_index *args
+    def remove_node_from_index *args
       @neo_server.remove_node_from_index *args
     end
 

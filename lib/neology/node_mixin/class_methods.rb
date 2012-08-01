@@ -7,9 +7,12 @@ module Neology
     module ClassMethods
 
       def new(*args)
-
-        graph_node = $neo_server.create_node({ "_classname" => self.name })
-        wrapper    = self.old_new graph_node
+        if (args.size == 1 and args[0].instance_of? Node)
+          wrapper    = self.old_new args[0]
+        else
+          graph_node = $neo_server.create_node({ "_classname" => self.name })
+          wrapper    = self.old_new graph_node
+        end
 
         wrapper.init_on_create(*args) if wrapper.respond_to? (:init_on_create)
 

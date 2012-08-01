@@ -29,7 +29,7 @@ module Neology
 
     def del
       $neo_server.delete_node!(inner_node)
-      $neo_server.delete_node_from_index(self.class._index_name, inner_node) if self.class.respond_to? :delete_node_from_index
+      $neo_server.remove_node_from_index(self.class._index_name, inner_node) if self.class.respond_to? :remove_node_from_index
     end
 
     def self.included(base)
